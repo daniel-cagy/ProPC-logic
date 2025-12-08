@@ -37,7 +37,7 @@ def get_nome(g, componente):
 
 
 def get_components(g, preferencia_marca, preferencia_desempenho):
-    marca_cpu, marca_mb = preferencia_marca
+    marca_cpu, marca_mb, marca_indesejada = preferencia_marca
     query = f"""
     PREFIX ex: <http://example.org/univ#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -53,6 +53,7 @@ def get_components(g, preferencia_marca, preferencia_desempenho):
         {"FILTER regex(str(?fcpu), '" + marca_cpu + "', 'i') ." if marca_cpu else ""}
         {"FILTER regex(str(?fmb), '" + marca_mb + "', 'i') ." if marca_mb else ""}
         {"FILTER regex(str(?nivel), '" + preferencia_desempenho + "', 'i') ." if preferencia_desempenho else ""}
+        {f"FILTER (!regex(str(?fcpu), '{marca_indesejada}', 'i') && !regex(str(?fmb), '{marca_indesejada}', 'i'))" if marca_indesejada else ""}
     }}
     """
 
@@ -112,7 +113,8 @@ match modo:
     case 1:
         preferencia_marca_cpu = input("Você tem preferência por alguma marca de CPU (Intel, AMD)? (Deixe vazio se não tiver): ")
         preferencia_marca_mb = input("Você tem preferência por alguma marca de Placa-Mae (Asus, Gigabyte, MSI)? (Deixe vazio se não tiver): ")
-        preferencia_marca = (preferencia_marca_cpu, preferencia_marca_mb)
+        marcas_indesejadas = input("Você tem alguma marca que não gostaria de incluir na busca? (Deixe vazio se não tiver): ")
+        preferencia_marca = (preferencia_marca_cpu, preferencia_marca_mb, marcas_indesejadas)
         preferencia_desempenho = input("Você tem preferência por algum nível de desempenho (Básico, Intermediário, Avançado, Premium)? (Deixe vazio se não tiver): ")
         configs = get_components(g, preferencia_marca, preferencia_desempenho)
         if not configs:
