@@ -1,0 +1,184 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# CLASSES
+
+ex:Componente a owl:Class .
+ex:Fabricante a owl:Class .
+ex:Socket a owl:Class .
+ex:Nivel a owl:Class .
+
+ex:CPU a owl:Class ;
+    rdfs:subClassOf ex:Componente .
+
+ex:MB a owl:Class ;
+    rdfs:subClassOf ex:Componente .
+
+# PROPRIEDADES
+
+ex:UsaSocket a owl:ObjectProperty .
+ex:TemSocket a owl:ObjectProperty .
+ex:fabrica a owl:ObjectProperty .
+ex:ehNivel a owl:ObjectProperty .
+
+
+# INDIVÍDUOS
+
+# Fabricantes
+ex:Intel a ex:Fabricante .
+ex:AMD a ex:Fabricante .
+ex:Asus a ex:Fabricante .
+ex:Gigabyte a ex:Fabricante .
+ex:MSI a ex:Fabricante .
+
+# Sockets
+ex:AM5 a ex:Socket .
+ex:LGA1700 a ex:Socket .
+
+# Níveis
+ex:Entrada a ex:Nivel .
+ex:Intermediario a ex:Nivel .
+ex:Avancado a ex:Nivel .
+ex:Premium a ex:Nivel .
+
+# CPUs Intel 14ª gen
+
+ex:core_14100k a ex:CPU ;
+    ex:UsaSocket ex:LGA1700 ;
+    ex:ehNivel ex:Entrada .
+
+ex:core_14600k a ex:CPU ;
+    ex:UsaSocket ex:LGA1700 ;
+    ex:ehNivel ex:Intermediario .
+
+ex:core_14700k a ex:CPU ;
+    ex:UsaSocket ex:LGA1700 ;
+    ex:ehNivel ex:Avancado .
+
+ex:core_14900k a ex:CPU ;
+    ex:UsaSocket ex:LGA1700 ;
+    ex:ehNivel ex:Premium .
+
+# CPUs AMD 7000
+
+ex:ryzen_7300x a ex:CPU ;
+    ex:UsaSocket ex:AM5 ;
+    ex:ehNivel ex:Entrada .
+
+ex:ryzen_7600x a ex:CPU ;
+    ex:UsaSocket ex:AM5 ;
+    ex:ehNivel ex:Intermediario .
+
+ex:ryzen_7700x a ex:CPU ;
+    ex:UsaSocket ex:AM5 ;
+    ex:ehNivel ex:Avancado .
+
+ex:ryzen_7900x a ex:CPU ;
+    ex:UsaSocket ex:AM5 ;
+    ex:ehNivel ex:Premium .
+
+
+# Relação fabricante -> CPUs
+
+ex:Intel ex:fabrica ex:core_14100k .
+ex:Intel ex:fabrica ex:core_14600k .
+ex:Intel ex:fabrica ex:core_14700k .
+ex:Intel ex:fabrica ex:core_14900k .
+
+ex:AMD ex:fabrica ex:ryzen_7300x .
+ex:AMD ex:fabrica ex:ryzen_7600x .
+ex:AMD ex:fabrica ex:ryzen_7700x .
+ex:AMD ex:fabrica ex:ryzen_7900x .
+
+###############################################
+# PLACAS-MÃE LGA1700 (Intel 14 gen)
+###############################################
+
+# ASUS
+ex:B760M_A_DDR4 a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Intermediario .
+ex:Asus ex:fabrica ex:B760M_A_DDR4 .
+
+ex:Z790_P_PRIME a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Premium .
+ex:Asus ex:fabrica ex:Z790_P_PRIME .
+
+
+# Gigabyte
+ex:B760M_DS3H a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Intermediario .
+ex:Gigabyte ex:fabrica ex:B760M_DS3H .
+
+ex:Z790_AORUS_ELITE a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Premium .
+ex:Gigabyte ex:fabrica ex:Z790_AORUS_ELITE .
+
+
+# MSI
+ex:B660M_BAZOOKA a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Intermediario .
+ex:MSI ex:fabrica ex:B660M_BAZOOKA .
+
+ex:Z690_PRO_A a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Avancado .
+ex:MSI ex:fabrica ex:Z690_PRO_A .
+
+
+# Suas já existentes
+ex:prime_h610M_E_D4 a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Entrada .
+ex:Asus ex:fabrica ex:prime_h610M_E_D4 .
+
+ex:Z690_GAMING_X_DDR4 a ex:MB ;
+    ex:TemSocket ex:LGA1700 ;
+    ex:ehNivel ex:Avancado .
+ex:Gigabyte ex:fabrica ex:Z690_GAMING_X_DDR4 .
+
+
+###############################################
+# PLACAS-MÃE AM5 (Ryzen 7000)
+###############################################
+
+# ASUS
+ex:B650M_PLUS a ex:MB ;
+    ex:TemSocket ex:AM5 ;
+    ex:ehNivel ex:Intermediario .
+ex:Asus ex:fabrica ex:B650M_PLUS .
+
+ex:X670E_PROART a ex:MB ;
+    ex:TemSocket ex:AM5 ;
+    ex:ehNivel ex:Premium .
+ex:Asus ex:fabrica ex:X670E_PROART .
+
+
+# Gigabyte
+ex:B650M_AORUS_ELITE a ex:MB ;
+    ex:TemSocket ex:AM5 ;
+    ex:ehNivel ex:Intermediario .
+ex:Gigabyte ex:fabrica ex:B650M_AORUS_ELITE .
+
+ex:X670_AORUS_MASTER a ex:MB ;
+    ex:TemSocket ex:AM5 ;
+    ex:ehNivel ex:Premium .
+ex:Gigabyte ex:fabrica ex:X670_AORUS_MASTER .
+
+
+# MSI
+ex:B650M_A_PRO a ex:MB ;
+    ex:TemSocket ex:AM5 ;
+    ex:ehNivel ex:Intermediario .
+ex:MSI ex:fabrica ex:B650M_A_PRO .
+
+ex:X670E_CARBON a ex:MB ;
+    ex:TemSocket ex:AM5 ;
+    ex:ehNivel ex:Premium .
+ex:MSI ex:fabrica ex:X670E_CARBON .
