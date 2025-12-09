@@ -2,12 +2,12 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # CLASSES
 
 ex:Componente a owl:Class .
 ex:Fabricante a owl:Class .
-ex:Socket a owl:Class .
 ex:Nivel a owl:Class .
 
 ex:CPU a owl:Class ;
@@ -22,6 +22,12 @@ ex:UsaSocket a owl:ObjectProperty .
 ex:TemSocket a owl:ObjectProperty .
 ex:fabrica a owl:ObjectProperty .
 ex:ehNivel a owl:ObjectProperty .
+
+# Propriedades de especificação
+ex:temNucleos a owl:DatatypeProperty ;
+    rdfs:range xsd:integer .
+ex:temThreads a owl:DatatypeProperty ;
+    rdfs:range xsd:integer .
 
 
 # INDIVÍDUOS
@@ -45,44 +51,61 @@ ex:Premium a ex:Nivel .
 
 # CPUs Intel 14ª gen
 
-ex:core_14100k a ex:CPU ;
+ex:core_14100 a ex:CPU ;
     ex:UsaSocket ex:LGA1700 ;
-    ex:ehNivel ex:Entrada .
+    ex:ehNivel ex:Entrada ;
+    ex:temNucleos 4 ;
+    ex:temThreads 8 .
 
 ex:core_14600k a ex:CPU ;
     ex:UsaSocket ex:LGA1700 ;
-    ex:ehNivel ex:Intermediario .
+    ex:ehNivel ex:Intermediario ;
+    ex:temNucleos 14 ;
+    ex:temThreads 20 .
 
 ex:core_14700k a ex:CPU ;
     ex:UsaSocket ex:LGA1700 ;
-    ex:ehNivel ex:Avancado .
+    ex:ehNivel ex:Avancado ;
+    ex:temNucleos 20 ;
+    ex:temThreads 28 .
 
 ex:core_14900k a ex:CPU ;
     ex:UsaSocket ex:LGA1700 ;
-    ex:ehNivel ex:Premium .
+    ex:ehNivel ex:Premium ;
+    ex:temNucleos 24 ;
+    ex:temThreads 32 .
 
 # CPUs AMD 7000
 
 ex:ryzen_7300x a ex:CPU ;
     ex:UsaSocket ex:AM5 ;
-    ex:ehNivel ex:Entrada .
+    ex:ehNivel ex:Entrada ;
+    ex:temNucleos 4 ;
+    ex:temThreads 8 .
+
 
 ex:ryzen_7600x a ex:CPU ;
     ex:UsaSocket ex:AM5 ;
-    ex:ehNivel ex:Intermediario .
+    ex:ehNivel ex:Intermediario ;
+    ex:temNucleos 6 ;
+    ex:temThreads 12 .
 
 ex:ryzen_7700x a ex:CPU ;
     ex:UsaSocket ex:AM5 ;
-    ex:ehNivel ex:Avancado .
+    ex:ehNivel ex:Avancado ;
+    ex:temNucleos 8 ;
+    ex:temThreads 16 .
 
 ex:ryzen_7900x a ex:CPU ;
     ex:UsaSocket ex:AM5 ;
-    ex:ehNivel ex:Premium .
+    ex:ehNivel ex:Premium ;
+    ex:temNucleos 12 ;
+    ex:temThreads 24 .
 
 
 # Relação fabricante -> CPUs
 
-ex:Intel ex:fabrica ex:core_14100k .
+ex:Intel ex:fabrica ex:core_14100 .
 ex:Intel ex:fabrica ex:core_14600k .
 ex:Intel ex:fabrica ex:core_14700k .
 ex:Intel ex:fabrica ex:core_14900k .
@@ -132,7 +155,6 @@ ex:Z690_PRO_A a ex:MB ;
 ex:MSI ex:fabrica ex:Z690_PRO_A .
 
 
-# Suas já existentes
 ex:prime_h610M_E_D4 a ex:MB ;
     ex:TemSocket ex:LGA1700 ;
     ex:ehNivel ex:Entrada .
