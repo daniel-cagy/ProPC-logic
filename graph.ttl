@@ -41,11 +41,15 @@ ex:hasThreads a owl:DatatypeProperty ;
 
 ex:hasTDP a owl:DatatypeProperty ;
     rdfs:domain ex:CPU ;
-    rdfs:range xsd:integer ;
+    rdfs:range xsd:integer .
 
 ex:hasIntegratedGraphics a owl:DatatypeProperty ;
     rdfs:domain ex:CPU ;
     rdfs:range xsd:boolean ;
+
+ex:isVariantOf a owl:ObjectProperty ;
+    rdfs:domain ex:CPU ;
+    rdfs:range ex:CPU .
 
 ex:Intel a ex:Manufacturer .
 ex:AMD a ex:Manufacturer .
