@@ -53,6 +53,14 @@ ex:hasMaxPower a owl:DatatypeProperty ;
     rdfs:domain ex:Component ;
     rdfs:range xsd:integer .
 
+ex:hasBaseClock a owl:DatatypeProperty ;
+    rdfs:domain ex:CPU ;
+    rdfs:range xsd:decimal .
+
+ex:hasBoostClock a owl:DatatypeProperty ;
+    rdfs:domain ex:CPU ;
+    rdfs:range xsd:decimal .
+
 ex:hasIntegratedGraphics a owl:DatatypeProperty ;
     rdfs:domain ex:CPU ;
     rdfs:range xsd:boolean ;
@@ -86,6 +94,10 @@ ex:core_14100 a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:EntryLevel ;
     ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 60 ;
+    ex:hasMaxPower 110 ;
     ex:hasCores 4 ;
     ex:hasThreads 8 .
 
@@ -94,6 +106,10 @@ ex:core_14100t a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:EntryLevel ;
     ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.7 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 69 ;
     ex:hasCores 4 ;
     ex:hasThreads 8 .
 
@@ -102,6 +118,10 @@ ex:core_14100f a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:EntryLevel ;
     ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 58 ;
+    ex:hasMaxPower 110 ;
     ex:hasCores 4 ;
     ex:hasThreads 8 .
 
