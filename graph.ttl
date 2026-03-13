@@ -8,6 +8,8 @@ ex:Component a owl:Class .
 ex:Manufacturer a owl:Class .
 ex:Tier a owl:Class .
 ex:Socket a owl:Class .
+ex:CPUFamily a owl:Class .
+
 
 ex:CPU a owl:Class ;
     rdfs:subClassOf ex:Component .
@@ -27,6 +29,10 @@ ex:manufactures a owl:ObjectProperty ;
     rdfs:domain ex:Manufacturer ;
     rdfs:range ex:Component .
 
+ex:manufacturesFamily a owl:ObjectProperty ;
+    rdfs:domain ex:Manufacturer ;
+    rdfs:range ex:CPUFamily .
+
 ex:hasTier a owl:ObjectProperty ;
     rdfs:domain ex:Component ;
     rdfs:range ex:Tier .
@@ -40,16 +46,21 @@ ex:hasThreads a owl:DatatypeProperty ;
     rdfs:range xsd:integer .
 
 ex:hasTDP a owl:DatatypeProperty ;
-    rdfs:domain ex:CPU ;
+    rdfs:domain ex:Component ;
+    rdfs:range xsd:integer .
+
+ex:hasMaxPower a owl:DatatypeProperty ;
+    rdfs:domain ex:Component ;
     rdfs:range xsd:integer .
 
 ex:hasIntegratedGraphics a owl:DatatypeProperty ;
     rdfs:domain ex:CPU ;
     rdfs:range xsd:boolean ;
 
-ex:isVariantOf a owl:ObjectProperty ;
+ex:belongsToFamily a owl:ObjectProperty ;
     rdfs:domain ex:CPU ;
-    rdfs:range ex:CPU .
+    rdfs:range ex:CPUFamily .
+
 
 ex:Intel a ex:Manufacturer .
 ex:AMD a ex:Manufacturer .
@@ -65,29 +76,188 @@ ex:MidRange a ex:Tier .
 ex:Advanced a ex:Tier .
 ex:Premium a ex:Tier .
 
+
+
+
+ex:core_i3_14th_gen a ex:CPUFamily .
+
 ex:core_14100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_14th_gen ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
     ex:hasCores 4 ;
     ex:hasThreads 8 .
 
-ex:core_14600k a ex:CPU ;
+ex:core_14100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_14100f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:core_i5_14th_gen a ex:CPUFamily .
+
+ex:core_14400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_14400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_14400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_14600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
     ex:hasCores 14 ;
     ex:hasThreads 20 .
 
-ex:core_14700k a ex:CPU ;
+ex:core_14600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+
+
+
+ex:core_i7_14th_gen a ex:CPUFamily .
+
+ex:core_14700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
     ex:hasCores 20 ;
     ex:hasThreads 28 .
 
-ex:core_14900k a ex:CPU ;
+ex:core_14700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+ex:core_14700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+ex:core_14700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+ex:core_14700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+
+
+
+ex:core_i9_14th_gen a ex:CPUFamily .
+
+ex:core_14900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
     ex:hasCores 24 ;
     ex:hasThreads 32 .
+
+ex:core_14900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900f a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900ks a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+
+
 
 ex:ryzen_7300x a ex:CPU ;
     ex:usesSocket ex:AM5 ;
@@ -113,10 +283,10 @@ ex:ryzen_7900x a ex:CPU ;
     ex:hasCores 12 ;
     ex:hasThreads 24 .
 
-ex:Intel ex:manufactures ex:core_14100 .
-ex:Intel ex:manufactures ex:core_14600k .
-ex:Intel ex:manufactures ex:core_14700k .
-ex:Intel ex:manufactures ex:core_14900k .
+ex:Intel ex:manufacturesFamily ex:core_i3_14th_gen .
+ex:Intel ex:manufacturesFamily ex:core_i5_14th_gen .
+ex:Intel ex:manufacturesFamily ex:core_i7_14th_gen .
+ex:Intel ex:manufacturesFamily ex:core_i9_14th_gen .
 
 ex:AMD ex:manufactures ex:ryzen_7300x .
 ex:AMD ex:manufactures ex:ryzen_7600x .
