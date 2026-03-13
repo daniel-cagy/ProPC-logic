@@ -135,6 +135,10 @@ ex:core_14400 a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:MidRange ;
     ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
     ex:hasCores 10 ;
     ex:hasThreads 16 .
 
@@ -143,6 +147,10 @@ ex:core_14400t a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:MidRange ;
     ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.5 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 82 ;
     ex:hasCores 10 ;
     ex:hasThreads 16 .
 
@@ -151,14 +159,58 @@ ex:core_14400f a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:MidRange ;
     ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
     ex:hasCores 10 ;
     ex:hasThreads 16 .
+
+ex:core_14500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.7 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
 
 ex:core_14600 a ex:CPU ;
     ex:belongsToFamily ex:core_i5_14th_gen ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:MidRange ;
     ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.7 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.8 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
     ex:hasCores 14 ;
     ex:hasThreads 20 .
 
@@ -167,6 +219,10 @@ ex:core_14600k a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:MidRange ;
     ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
     ex:hasCores 14 ;
     ex:hasThreads 20 .
 
@@ -175,6 +231,10 @@ ex:core_14600kf a ex:CPU ;
     ex:usesSocket ex:LGA1700 ;
     ex:hasTier ex:MidRange ;
     ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
     ex:hasCores 14 ;
     ex:hasThreads 20 .
 
