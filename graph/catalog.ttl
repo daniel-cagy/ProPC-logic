@@ -1,0 +1,19 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Intel a ex:Manufacturer .
+ex:AMD a ex:Manufacturer .
+ex:Asus a ex:Manufacturer .
+ex:Gigabyte a ex:Manufacturer .
+ex:MSI a ex:Manufacturer .
+
+ex:AM5 a ex:Socket .
+ex:LGA1700 a ex:Socket .
+
+ex:EntryLevel a ex:Tier .
+ex:MidRange a ex:Tier .
+ex:Advanced a ex:Tier .
+ex:Premium a ex:Tier .

@@ -1,0 +1,75 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:B760M_A_DDR4 a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange .
+ex:Asus ex:manufactures ex:B760M_A_DDR4 .
+
+ex:Z790_P_PRIME a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium .
+ex:Asus ex:manufactures ex:Z790_P_PRIME .
+
+ex:B760M_DS3H a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange .
+ex:Gigabyte ex:manufactures ex:B760M_DS3H .
+
+ex:Z790_AORUS_ELITE a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium .
+ex:Gigabyte ex:manufactures ex:Z790_AORUS_ELITE .
+
+ex:B660M_BAZOOKA a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange .
+ex:MSI ex:manufactures ex:B660M_BAZOOKA .
+
+ex:Z690_PRO_A a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced .
+ex:MSI ex:manufactures ex:Z690_PRO_A .
+
+ex:prime_h610M_E_D4 a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel .
+ex:Asus ex:manufactures ex:prime_h610M_E_D4 .
+
+ex:Z690_GAMING_X_DDR4 a ex:Motherboard ;
+    ex:hasSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced .
+ex:Gigabyte ex:manufactures ex:Z690_GAMING_X_DDR4 .
+
+ex:B650M_PLUS a ex:Motherboard ;
+    ex:hasSocket ex:AM5 ;
+    ex:hasTier ex:MidRange .
+ex:Asus ex:manufactures ex:B650M_PLUS .
+
+ex:X670E_PROART a ex:Motherboard ;
+    ex:hasSocket ex:AM5 ;
+    ex:hasTier ex:Premium .
+ex:Asus ex:manufactures ex:X670E_PROART .
+
+ex:B650M_AORUS_ELITE a ex:Motherboard ;
+    ex:hasSocket ex:AM5 ;
+    ex:hasTier ex:MidRange .
+ex:Gigabyte ex:manufactures ex:B650M_AORUS_ELITE .
+
+ex:X670_AORUS_MASTER a ex:Motherboard ;
+    ex:hasSocket ex:AM5 ;
+    ex:hasTier ex:Premium .
+ex:Gigabyte ex:manufactures ex:X670_AORUS_MASTER .
+
+ex:B650M_A_PRO a ex:Motherboard ;
+    ex:hasSocket ex:AM5 ;
+    ex:hasTier ex:MidRange .
+ex:MSI ex:manufactures ex:B650M_A_PRO .
+
+ex:X670E_CARBON a ex:Motherboard ;
+    ex:hasSocket ex:AM5 ;
+    ex:hasTier ex:Premium .
+ex:MSI ex:manufactures ex:X670E_CARBON .
