@@ -180,3 +180,30 @@ ex:ryzen_7950x3d a ex:CPU ;
     ex:hasTDP 120 ;
     ex:hasCores 16 ;
     ex:hasThreads 32 .
+
+
+
+
+ex:ryzen_3_8000_series a ex:CPUFamily .
+
+ex:ryzen_8300g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_8300ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
