@@ -4,6 +4,161 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+
+ex:core_i3_13th_gen a ex:CPUFamily .
+
+ex:core_13100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 60 ;
+    ex:hasMaxPower 110 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_13100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 69 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_13100f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 58 ;
+    ex:hasMaxPower 110 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:core_i5_13th_gen a ex:CPUFamily .
+
+ex:core_13400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_13400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.3 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 82 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_13400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_13500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.6 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.7 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.8 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+
+
+
 ex:core_i3_14th_gen a ex:CPUFamily .
 
 ex:core_14100 a ex:CPU ;
