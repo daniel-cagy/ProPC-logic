@@ -455,6 +455,153 @@ ex:core_14900kf a ex:CPU ;
 
 
 
+ex:ryzen_3_2000_series a ex:CPUFamily .
+
+ex:ryzen_2200g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:ryzen_2200ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.6 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:ryzen_2300x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+
+
+
+ex:ryzen_5_2000_series a ex:CPUFamily .
+
+ex:ryzen_2400g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_2400ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.8 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_2500x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_2600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_2600e a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 45 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_2600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_2000_series a ex:CPUFamily .
+
+ex:ryzen_2700 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_2700e a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 45 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_2700x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
 ex:ryzen_3_3000_series a ex:CPUFamily .
 
 ex:ryzen_3100 a ex:CPU ;
