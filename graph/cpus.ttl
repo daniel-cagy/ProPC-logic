@@ -557,3 +557,42 @@ ex:ryzen_8700g a ex:CPU ;
     ex:hasTDP 65 ;
     ex:hasCores 8 ;
     ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_5_9000_series a ex:CPUFamily .
+
+ex:ryzen_9500f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_9600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_9600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
