@@ -648,6 +648,39 @@ ex:ryzen_8300g a ex:CPU ;
     ex:hasCores 4 ;
     ex:hasThreads 8 .
 
+ex:ryzen_8305g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_8305ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_8300ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
 
 
 
@@ -675,7 +708,51 @@ ex:ryzen_8500g a ex:CPU ;
     ex:hasCores 6 ;
     ex:hasThreads 12 .
 
+ex:ryzen_8500ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8505g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8505ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
 ex:ryzen_8600g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.3 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8605g a ex:CPU ;
     ex:belongsToFamily ex:ryzen_5_8000_series ;
     ex:usesSocket ex:AM5 ;
     ex:hasTier ex:MidRange ;
@@ -703,6 +780,17 @@ ex:ryzen_8700f a ex:CPU ;
     ex:hasThreads 16 .
 
 ex:ryzen_8700g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.2 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_8705g a ex:CPU ;
     ex:belongsToFamily ex:ryzen_7_8000_series ;
     ex:usesSocket ex:AM5 ;
     ex:hasTier ex:Advanced ;
