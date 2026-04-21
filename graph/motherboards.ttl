@@ -6,363 +6,70 @@
 
 ex:B760M_A_DDR4 a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
+    ex:hasTier ex:MidRange .
 ex:Asus ex:manufactures ex:B760M_A_DDR4 .
 
 ex:Z790_P_PRIME a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
+    ex:hasTier ex:Premium .
 ex:Asus ex:manufactures ex:Z790_P_PRIME .
 
 ex:B760M_DS3H a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
+    ex:hasTier ex:MidRange .
 ex:Gigabyte ex:manufactures ex:B760M_DS3H .
 
 ex:Z790_AORUS_ELITE a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
+    ex:hasTier ex:Premium .
 ex:Gigabyte ex:manufactures ex:Z790_AORUS_ELITE .
 
 ex:B660M_BAZOOKA a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
+    ex:hasTier ex:MidRange .
 ex:MSI ex:manufactures ex:B660M_BAZOOKA .
 
 ex:Z690_PRO_A a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:Advanced ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
+    ex:hasTier ex:Advanced .
 ex:MSI ex:manufactures ex:Z690_PRO_A .
 
 ex:prime_h610M_E_D4 a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:EntryLevel ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
+    ex:hasTier ex:EntryLevel .
 ex:Asus ex:manufactures ex:prime_h610M_E_D4 .
 
 ex:Z690_GAMING_X_DDR4 a ex:Motherboard ;
     ex:hasSocket ex:LGA1700 ;
-    ex:hasTier ex:Advanced ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
+    ex:hasTier ex:Advanced .
 ex:Gigabyte ex:manufactures ex:Z690_GAMING_X_DDR4 .
 
 ex:B650M_PLUS a ex:Motherboard ;
     ex:hasSocket ex:AM5 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
+    ex:hasTier ex:MidRange .
 ex:Asus ex:manufactures ex:B650M_PLUS .
 
 ex:X670E_PROART a ex:Motherboard ;
     ex:hasSocket ex:AM5 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
+    ex:hasTier ex:Premium .
 ex:Asus ex:manufactures ex:X670E_PROART .
 
 ex:B650M_AORUS_ELITE a ex:Motherboard ;
     ex:hasSocket ex:AM5 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
+    ex:hasTier ex:MidRange .
 ex:Gigabyte ex:manufactures ex:B650M_AORUS_ELITE .
 
 ex:X670_AORUS_MASTER a ex:Motherboard ;
     ex:hasSocket ex:AM5 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 8 .
+    ex:hasTier ex:Premium .
 ex:Gigabyte ex:manufactures ex:X670_AORUS_MASTER .
 
 ex:B650M_A_PRO a ex:Motherboard ;
     ex:hasSocket ex:AM5 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
+    ex:hasTier ex:MidRange .
 ex:MSI ex:manufactures ex:B650M_A_PRO .
 
 ex:X670E_CARBON a ex:Motherboard ;
     ex:hasSocket ex:AM5 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR5" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe, 1x M.2230 NVMe" ;
-    ex:hasSATAPorts 6 .
+    ex:hasTier ex:Premium .
 ex:MSI ex:manufactures ex:X670E_CARBON .
-
-ex:ROG_Strix_B450_F_Gaming a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:Asus ex:manufactures ex:ROG_Strix_B450_F_Gaming .
-
-ex:B450_Aorus_Elite a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:Gigabyte ex:manufactures ex:B450_Aorus_Elite .
-
-ex:B450_Tomahawk a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:MSI ex:manufactures ex:B450_Tomahawk .
-
-ex:Prime_X570_Pro a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 8 .
-ex:Asus ex:manufactures ex:Prime_X570_Pro .
-
-ex:ROG_Strix_Z370_E a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:Asus ex:manufactures ex:ROG_Strix_Z370_E .
-
-ex:Z390_Aorus_Ultra a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:Gigabyte ex:manufactures ex:Z390_Aorus_Ultra .
-
-ex:Z390_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:MSI ex:manufactures ex:Z390_A_Pro .
-
-ex:ROG_Strix_Z490_E a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:Asus ex:manufactures ex:ROG_Strix_Z490_E .
-
-ex:Z490_Aorus_Elite a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
-    ex:hasTier ex:Premium ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
-    ex:hasM2Slots "2x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:Gigabyte ex:manufactures ex:Z490_Aorus_Elite .
-
-ex:Z490_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
-ex:MSI ex:manufactures ex:Z490_A_Pro .
-
-ex:Prime_B450M_A a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
-ex:Asus ex:manufactures ex:Prime_B450M_A .
-
-ex:B350_Gaming a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
-    ex:hasM2Slots "1x M.2280 SATA" ;
-    ex:hasSATAPorts 6 .
-ex:Gigabyte ex:manufactures ex:B350_Gaming .
-
-ex:A320M_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
-    ex:hasTier ex:EntryLevel ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
-    ex:hasM2Slots "0" ;
-    ex:hasSATAPorts 4 .
-ex:MSI ex:manufactures ex:A320M_A_Pro .
-
-ex:Prime_B360M_A a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
-ex:Asus ex:manufactures ex:Prime_B360M_A .
-
-ex:H370_Aorus_Gaming_3 a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:Gigabyte ex:manufactures ex:H370_Aorus_Gaming_3 .
-
-ex:B360_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 6 .
-ex:MSI ex:manufactures ex:B360_A_Pro .
-
-ex:Prime_B560M_A a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
-ex:Asus ex:manufactures ex:Prime_B560M_A .
-
-ex:H510M_DS2 a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
-    ex:hasTier ex:EntryLevel ;
-    ex:hasFormFactor "Micro-ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 2 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
-ex:Gigabyte ex:manufactures ex:H510M_DS2 .
-
-ex:B560_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
-    ex:hasTier ex:MidRange ;
-    ex:hasFormFactor "ATX" ;
-    ex:hasRAMArchitecture "DDR4" ;
-    ex:hasRAMSlots 4 ;
-    ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
-    ex:hasM2Slots "1x M.2280 NVMe" ;
-    ex:hasSATAPorts 4 .
-ex:MSI ex:manufactures ex:B560_A_Pro .

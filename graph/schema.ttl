@@ -74,27 +74,3 @@ ex:hasIntegratedGraphics a owl:DatatypeProperty ;
 ex:belongsToFamily a owl:ObjectProperty ;
     rdfs:domain ex:CPU ;
     rdfs:range ex:CPUFamily .
-
-ex:hasFormFactor a owl:DatatypeProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range xsd:string .
-
-ex:hasRAMArchitecture a owl:DatatypeProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range xsd:string .
-
-ex:hasRAMSlots a owl:DatatypeProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range xsd:integer .
-
-ex:hasPCIeSlots a owl:DatatypeProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range xsd:string .
-
-ex:hasM2Slots a owl:DatatypeProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range xsd:string .
-
-ex:hasSATAPorts a owl:DatatypeProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range xsd:integer .
