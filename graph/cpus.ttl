@@ -455,6 +455,120 @@ ex:core_14900kf a ex:CPU ;
 
 
 
+ex:ryzen_3_4000_series a ex:CPUFamily .
+
+ex:ryzen_4100 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_4300g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_4300ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:ryzen_5_4000_series a ex:CPUFamily .
+
+ex:ryzen_4500 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_4600g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_4600ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_4000_series a ex:CPUFamily .
+
+ex:ryzen_4700g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_4700ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_4700le a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
 ex:ryzen_3_5000_series a ex:CPUFamily .
 
 ex:ryzen_5300ge a ex:CPU ;
