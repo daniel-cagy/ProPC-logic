@@ -159,6 +159,148 @@ ex:core_13600kf a ex:CPU ;
 
 
 
+ex:core_i7_13th_gen a ex:CPUFamily .
+
+ex:core_13700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 106 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+
+
+
+ex:core_i9_13th_gen a ex:CPUFamily .
+
+ex:core_13900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 5.8 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 5.8 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.1 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 106 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900f a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900ks a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 6.0 ;
+    ex:hasTDP 150 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+
+
+
 ex:core_i3_14th_gen a ex:CPUFamily .
 
 ex:core_14100 a ex:CPU ;
@@ -1653,7 +1795,7 @@ ex:ryzen_8300ge a ex:CPU ;
     ex:hasIntegratedGraphics true ;
     ex:hasBaseClock 3.5 ;
     ex:hasBoostClock 4.9 ;
-    ex:hasTDP 65 ;
+    ex:hasTDP 35 ;
     ex:hasCores 4 ;
     ex:hasThreads 8 .
 
