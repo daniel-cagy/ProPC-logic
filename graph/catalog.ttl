@@ -14,6 +14,7 @@ ex:AM5 a ex:Socket .
 ex:LGA1151_v2 a ex:Socket .
 ex:LGA1200 a ex:Socket .
 ex:LGA1700 a ex:Socket .
+ex:LGA1851 a ex:Socket .
 
 ex:EntryLevel a ex:Tier .
 ex:MidRange a ex:Tier .

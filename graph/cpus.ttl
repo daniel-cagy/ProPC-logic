@@ -2057,6 +2057,263 @@ ex:core_14900kf a ex:CPU ;
 
 
 
+ex:core_ultra_5_series_2 a ex:CPUFamily .
+
+ex:core_ultra_225f a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 10 .
+
+ex:core_ultra_225 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 10 .
+
+ex:core_ultra_225t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 10 .
+
+ex:core_ultra_235 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_235t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_235a a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_235ta a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245kf a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245k a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_250kf_plus a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 18 ;
+    ex:hasThreads 18 .
+
+ex:core_ultra_250k_plus a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 18 ;
+    ex:hasThreads 18 .
+
+
+
+
+ex:core_ultra_7_series_2 a ex:CPUFamily .
+
+ex:core_ultra_265kf a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265k a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265f a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 182 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 112 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 182 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_270k_plus a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+
+
+
+ex:core_ultra_9_series_2 a ex:CPUFamily .
+
+ex:core_ultra_285t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_9_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 112 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+ex:core_ultra_285k a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_9_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.7 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+ex:core_ultra_285 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_9_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 182 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+
+
+
 ex:ryzen_3_1000_series a ex:CPUFamily .
 
 ex:ryzen_1200 a ex:CPU ;
