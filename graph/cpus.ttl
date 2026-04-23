@@ -5,6 +5,192 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
+ex:core_i3_8th_gen a ex:CPUFamily .
+
+ex:core_8100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8300 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasTDP 62 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8300t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8350k a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasTDP 91 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+
+
+
+ex:core_i5_8th_gen a ex:CPUFamily .
+
+ex:core_8400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.7 ;
+    ex:hasBoostClock 3.3 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 3.5 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.3 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+
+
+
+ex:core_i7_8th_gen a ex:CPUFamily .
+
+ex:core_8086k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_8700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_8700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.4 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_8700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
 ex:core_i3_9th_gen a ex:CPUFamily .
 
 ex:core_9100 a ex:CPU ;
