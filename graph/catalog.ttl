@@ -10,6 +10,7 @@ ex:Asus a ex:Manufacturer .
 ex:Gigabyte a ex:Manufacturer .
 ex:MSI a ex:Manufacturer .
 
+ex:AM4 a ex:Socket .
 ex:AM5 a ex:Socket .
 ex:LGA1151_v2 a ex:Socket .
 ex:LGA1200 a ex:Socket .
