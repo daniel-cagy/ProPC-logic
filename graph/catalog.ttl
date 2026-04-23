@@ -11,6 +11,7 @@ ex:Gigabyte a ex:Manufacturer .
 ex:MSI a ex:Manufacturer .
 
 ex:AM5 a ex:Socket .
+ex:LGA1151_v2 a ex:Socket .
 ex:LGA1200 a ex:Socket .
 ex:LGA1700 a ex:Socket .
 
