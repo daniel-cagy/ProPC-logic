@@ -1,0 +1,76 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Certification a owl:Class .
+
+ex:Cert80PlusTitanium a ex:Certification .
+ex:Cert80PlusPlatinum a ex:Certification .
+ex:Cert80PlusGold a ex:Certification .
+ex:Cert80PlusSilver a ex:Certification .
+ex:Cert80PlusBronze a ex:Certification .
+ex:Cert80PlusWhite a ex:Certification .
+ex:CertCyberneticsA a ex:Certification .
+ex:CertCyberneticsAPlus a ex:Certification .
+ex:CertCyberneticsB a ex:Certification .
+ex:CertCyberneticsBPlus a ex:Certification .
+ex:CertCyberneticsC a ex:Certification .
+ex:CertCyberneticsCPlus a ex:Certification .
+
+ex:coolermaster_mwe_650_gold a ex:PSU ;
+    ex:hasPower 650 ;
+    ex:hasPowerFactor 0.95 ;
+    ex:hasCertification ex:Cert80PlusGold , ex:CertCyberneticsAPlus ;
+    ex:hasTier ex:MidRange .
+ex:CoolerMaster ex:manufactures ex:coolermaster_mwe_650_gold .
+
+ex:corsair_rm650x a ex:PSU ;
+    ex:hasPower 650 ;
+    ex:hasPowerFactor 0.92 ;
+    ex:hasCertification ex:Cert80PlusGold , ex:CertCyberneticsA ;
+    ex:hasTier ex:MidRange .
+ex:Corsair ex:manufactures ex:corsair_rm650x .
+
+ex:seasonic_prime_1000_titanium a ex:PSU ;
+    ex:hasPower 1000 ;
+    ex:hasPowerFactor 0.98 ;
+    ex:hasCertification ex:Cert80PlusTitanium ;
+    ex:hasTier ex:Premium .
+ex:SeaSonic ex:manufactures ex:seasonic_prime_1000_titanium .
+
+ex:evga_supernova_850_platinum a ex:PSU ;
+    ex:hasPower 850 ;
+    ex:hasPowerFactor 0.96 ;
+    ex:hasCertification ex:Cert80PlusPlatinum ;
+    ex:hasTier ex:Premium .
+ex:EVGA ex:manufactures ex:evga_supernova_850_platinum .
+
+ex:bequiet_pure_power_11_silver a ex:PSU ;
+    ex:hasPower 750 ;
+    ex:hasPowerFactor 0.93 ;
+    ex:hasCertification ex:Cert80PlusSilver ;
+    ex:hasTier ex:MidRange .
+ex:BeQuiet ex:manufactures ex:bequiet_pure_power_11_silver .
+
+ex:thermaltake_toughpower_650_white a ex:PSU ;
+    ex:hasPower 650 ;
+    ex:hasPowerFactor 0.89 ;
+    ex:hasCertification ex:Cert80PlusWhite ;
+    ex:hasTier ex:EntryLevel .
+ex:Thermaltake ex:manufactures ex:thermaltake_toughpower_650_white .
+
+ex:seasonic_focus_gx_750 a ex:PSU ;
+    ex:hasPower 750 ;
+    ex:hasPowerFactor 0.94 ;
+    ex:hasCertification ex:Cert80PlusGold , ex:CertCyberneticsCPlus ;
+    ex:hasTier ex:Premium .
+ex:SeaSonic ex:manufactures ex:seasonic_focus_gx_750 .
+
+ex:segotep_g600_c a ex:PSU ;
+    ex:hasPower 600 ;
+    ex:hasPowerFactor 0.85 ;
+    ex:hasCertification ex:CertCyberneticsC ;
+    ex:hasTier ex:EntryLevel .
+ex:Segotep ex:manufactures ex:segotep_g600_c .
