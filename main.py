@@ -150,7 +150,7 @@ def listar_componentes_compatíveis(g, componente, tipo_componente):
 
 # Programa Principal
 g = rdflib.Graph()
-g.parse("meugrafo.ttl", format="turtle")
+g.parse("graph.ttl", format="turtle")
 g = add_compatibility(g)
 modo = int(input("Modo (1 para Montagem, ou 2 para Checagem, ou 3 para recomendar uma peça, ou 4 para listar possiveis upgrades, ou qualquer outro número para ajuda): "))
 match modo:

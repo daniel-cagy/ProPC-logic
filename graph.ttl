@@ -10,4 +10,5 @@ ex:graph a owl:Ontology ;
                 <graph/cpus-intel.ttl> ,
                 <graph/cpus-amd.ttl> ,
                 <graph/relationships.ttl> ,
-                <graph/motherboards.ttl> .
+                <graph/motherboards.ttl> ,
+                <graph/psus.ttl> .
