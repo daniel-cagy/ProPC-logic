@@ -18,58 +18,58 @@ ex:CPUFamily a owl:Class .
 
 
 ex:CPU a owl:Class ;
-    rdfs:subClassOf ex:Component .
+rdfs:subClassOf ex:Component .
 
 ex:Motherboard a owl:Class ;
-    rdfs:subClassOf ex:Component .
+rdfs:subClassOf ex:Component .
 
 ex:usesSocket a owl:ObjectProperty ;
-    rdfs:domain ex:CPU ;
-    rdfs:range ex:Socket .
+rdfs:domain ex:CPU ;
+rdfs:range ex:Socket .
 
 ex:hasSocket a owl:ObjectProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range ex:Socket .
+rdfs:domain ex:Motherboard ;
+rdfs:range ex:Socket .
 
 ex:manufactures a owl:ObjectProperty ;
-    rdfs:domain ex:Manufacturer ;
-    rdfs:range ex:Component .
+rdfs:domain ex:Manufacturer ;
+rdfs:range ex:Component .
 
 ex:manufacturesFamily a owl:ObjectProperty ;
-    rdfs:domain ex:Manufacturer ;
-    rdfs:range ex:CPUFamily .
+rdfs:domain ex:Manufacturer ;
+rdfs:range ex:CPUFamily .
 
 ex:hasTier a owl:ObjectProperty ;
-    rdfs:domain ex:Component ;
-    rdfs:range ex:Tier .
+rdfs:domain ex:Component ;
+rdfs:range ex:Tier .
 
 ex:hasCores a owl:DatatypeProperty ;
-    rdfs:domain ex:CPU ;
-    rdfs:range xsd:integer .
+rdfs:domain ex:CPU ;
+rdfs:range xsd:integer .
 
 ex:hasThreads a owl:DatatypeProperty ;
-    rdfs:domain ex:CPU ;
-    rdfs:range xsd:integer .
+rdfs:domain ex:CPU ;
+rdfs:range xsd:integer .
 
 ex:hasTDP a owl:DatatypeProperty ;
-    rdfs:domain ex:Component ;
-    rdfs:range xsd:integer .
+rdfs:domain ex:Component ;
+rdfs:range xsd:integer .
 
 ex:hasMaxPower a owl:DatatypeProperty ;
-    rdfs:domain ex:Component ;
-    rdfs:range xsd:integer .
+rdfs:domain ex:Component ;
+rdfs:range xsd:integer .
 
 ex:hasBaseClock a owl:DatatypeProperty ;
-    rdfs:domain ex:CPU ;
-    rdfs:range xsd:decimal .
+rdfs:domain ex:CPU ;
+rdfs:range xsd:decimal .
 
 ex:hasBoostClock a owl:DatatypeProperty ;
-    rdfs:domain ex:CPU ;
-    rdfs:range xsd:decimal .
+rdfs:domain ex:CPU ;
+rdfs:range xsd:decimal .
 
 ex:hasIntegratedGraphics a owl:DatatypeProperty ;
-    rdfs:domain ex:CPU ;
-    rdfs:range xsd:boolean .
+rdfs:domain ex:CPU ;
+rdfs:range xsd:boolean .
 
 ex:belongsToFamily a owl:ObjectProperty ;
     rdfs:domain ex:CPU ;
@@ -91,3 +91,29 @@ ex:hasPower a owl:DatatypeProperty ;
 ex:hasPowerFactor a owl:DatatypeProperty ;
     rdfs:domain ex:PSU ;
     rdfs:range xsd:decimal .
+rdfs:domain ex:CPU ;
+rdfs:range ex:CPUFamily .
+
+ex:hasFormFactor a owl:DatatypeProperty ;
+    rdfs:domain ex:Motherboard ;
+    rdfs:range xsd:string .
+
+ex:hasRAMArchitecture a owl:DatatypeProperty ;
+    rdfs:domain ex:Motherboard ;
+    rdfs:range xsd:string .
+
+ex:hasRAMSlots a owl:DatatypeProperty ;
+    rdfs:domain ex:Motherboard ;
+    rdfs:range xsd:integer .
+
+ex:hasPCIeSlots a owl:DatatypeProperty ;
+    rdfs:domain ex:Motherboard ;
+    rdfs:range xsd:string .
+
+ex:hasM2Slots a owl:DatatypeProperty ;
+    rdfs:domain ex:Motherboard ;
+    rdfs:range xsd:string .
+
+ex:hasSATAPorts a owl:DatatypeProperty ;
+    rdfs:domain ex:Motherboard ;
+    rdfs:range xsd:integer .

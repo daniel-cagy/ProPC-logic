@@ -1,0 +1,3784 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+ex:core_i3_8th_gen a ex:CPUFamily .
+
+ex:core_8100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8300 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasTDP 62 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8300t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_8350k a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasTDP 91 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+
+
+
+ex:core_i5_8th_gen a ex:CPUFamily .
+
+ex:core_8400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.7 ;
+    ex:hasBoostClock 3.3 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 3.5 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.3 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_8600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+
+
+
+ex:core_i7_8th_gen a ex:CPUFamily .
+
+ex:core_8086k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_8700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_8700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.4 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_8700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_8th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:core_i3_9th_gen a ex:CPUFamily .
+
+ex:core_9100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_9100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_9100f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_9300 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 62 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_9300t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.8 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_9320 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 62 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_9350k a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 91 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:core_9350kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 91 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+
+
+
+ex:core_i5_9th_gen a ex:CPUFamily .
+
+ex:core_9400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.9 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.8 ;
+    ex:hasBoostClock 3.4 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.9 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.2 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9500f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.3 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:core_9600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+
+
+
+ex:core_i7_9th_gen a ex:CPUFamily .
+
+ex:core_9700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 8 .
+
+ex:core_9700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 8 .
+
+ex:core_9700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 8 .
+
+ex:core_9700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 8 .
+
+ex:core_9700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:core_i9_9th_gen a ex:CPUFamily .
+
+ex:core_9900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_9900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_9900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_9900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_9900ks a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_9th_gen ;
+    ex:usesSocket ex:LGA1151_v2 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 127 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:core_i3_10th_gen a ex:CPUFamily .
+
+ex:core_10100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 3.8 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10100f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10105 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10105t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10105f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10300 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10300t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10305 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10305t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10320 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_10325 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:core_i5_10th_gen a ex:CPUFamily .
+
+ex:core_10400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.9 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 3.6 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.9 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.3 ;
+    ex:hasBoostClock 3.8 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10505 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.4 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.1 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 125 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_10600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 4.1 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 125 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:core_i7_10th_gen a ex:CPUFamily .
+
+ex:core_10700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.9 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_10700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_10700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.9 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_10700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 125 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_10700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 125 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:core_i9_10th_gen a ex:CPUFamily .
+
+ex:core_10850k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 125 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 20 .
+
+ex:core_10900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.8 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 20 .
+
+ex:core_10900f a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.8 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 20 .
+
+ex:core_10900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.9 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 20 .
+
+ex:core_10900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 20 .
+
+ex:core_10900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_10th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 20.
+
+
+
+
+ex:core_i5_11th_gen a ex:CPUFamily .
+
+ex:core_11400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.6 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.6 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.7 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.5 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 82 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.3 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 82 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.8 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 251 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 251 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_11600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.7 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:core_i7_11th_gen a ex:CPUFamily .
+
+ex:core_11700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 251 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 251 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.4 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 224 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 224 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:core_i9_11th_gen a ex:CPUFamily .
+
+ex:core_11900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 224 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11900f a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 224 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 251 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:core_11900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_11th_gen ;
+    ex:usesSocket ex:LGA1200 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 251 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:core_i3_12th_gen a ex:CPUFamily .
+
+ex:core_12100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 60 ;
+    ex:hasMaxPower 89 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_12100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.2 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 69 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_12100f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 58 ;
+    ex:hasMaxPower 89 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_12300 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 60 ;
+    ex:hasMaxPower 89 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_12300t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.3 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 69 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:core_i5_12th_gen a ex:CPUFamily .
+
+ex:core_12400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 117 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_12400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.8 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 74 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_12400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 117 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_12500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 117 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_12500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 74 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_12600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 117 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_12600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 74 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:core_12600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 150 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_12600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 150 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:core_i7_12th_gen a ex:CPUFamily .
+
+ex:core_12700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 180 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 20 .
+
+ex:core_12700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.4 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 99 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 20 .
+
+ex:core_12700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 180 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 20 .
+
+ex:core_12700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 190 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 20 .
+
+ex:core_12700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 190 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 20 .
+
+
+
+
+ex:core_i9_12th_gen a ex:CPUFamily .
+
+ex:core_12900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.4 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 202 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_12900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 106 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_12900f a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.4 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 202 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_12900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 241 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_12900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 241 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_12900ks a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_12th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 150 ;
+    ex:hasMaxPower 241 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+
+
+
+ex:core_i3_13th_gen a ex:CPUFamily .
+
+ex:core_13100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 60 ;
+    ex:hasMaxPower 110 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_13100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 69 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_13100f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 58 ;
+    ex:hasMaxPower 110 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:core_i5_13th_gen a ex:CPUFamily .
+
+ex:core_13400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_13400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.3 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 82 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_13400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_13500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.6 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.7 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.8 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_13600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+
+
+
+ex:core_i7_13th_gen a ex:CPUFamily .
+
+ex:core_13700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 106 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+ex:core_13700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 24 .
+
+
+
+
+ex:core_i9_13th_gen a ex:CPUFamily .
+
+ex:core_13900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 5.8 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 5.8 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.1 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 106 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900f a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_13900ks a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_13th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 6.0 ;
+    ex:hasTDP 150 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+
+
+
+ex:core_i3_14th_gen a ex:CPUFamily .
+
+ex:core_14100 a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 60 ;
+    ex:hasMaxPower 110 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_14100t a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.7 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 69 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:core_14100f a ex:CPU ;
+    ex:belongsToFamily ex:core_i3_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 58 ;
+    ex:hasMaxPower 110 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:core_i5_14th_gen a ex:CPUFamily .
+
+ex:core_14400 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_14400t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.5 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 82 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_14400f a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 148 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 16 .
+
+ex:core_14500 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.6 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14500t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.7 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14600 a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.7 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 154 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14600t a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.8 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 92 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14600k a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+ex:core_14600kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i5_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 181 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 20 .
+
+
+
+
+ex:core_i7_14th_gen a ex:CPUFamily .
+
+ex:core_14700 a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+ex:core_14700t a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.3 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 106 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+ex:core_14700f a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.1 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+ex:core_14700k a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+ex:core_14700kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i7_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 28 .
+
+
+
+
+ex:core_i9_14th_gen a ex:CPUFamily .
+
+ex:core_14900 a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 5.8 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900t a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 1.1 ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 106 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900f a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.0 ;
+    ex:hasBoostClock 5.8 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 219 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900k a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 6.0 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900ks a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 6.2 ;
+    ex:hasTDP 150 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+ex:core_14900kf a ex:CPU ;
+    ex:belongsToFamily ex:core_i9_14th_gen ;
+    ex:usesSocket ex:LGA1700 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 6.0 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 253 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 32 .
+
+
+
+
+ex:core_ultra_5_series_2 a ex:CPUFamily .
+
+ex:core_ultra_225f a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 10 .
+
+ex:core_ultra_225 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 10 .
+
+ex:core_ultra_225t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 10 ;
+    ex:hasThreads 10 .
+
+ex:core_ultra_235 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_235t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_235a a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_235ta a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245kf a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245k a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 114 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_245 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 121 ;
+    ex:hasCores 14 ;
+    ex:hasThreads 14 .
+
+ex:core_ultra_250kf_plus a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 18 ;
+    ex:hasThreads 18 .
+
+ex:core_ultra_250k_plus a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_5_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 159 ;
+    ex:hasCores 18 ;
+    ex:hasThreads 18 .
+
+
+
+
+ex:core_ultra_7_series_2 a ex:CPUFamily .
+
+ex:core_ultra_265kf a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265k a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265f a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 182 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 112 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_265 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 182 ;
+    ex:hasCores 20 ;
+    ex:hasThreads 20 .
+
+ex:core_ultra_270k_plus a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_7_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+
+
+
+ex:core_ultra_9_series_2 a ex:CPUFamily .
+
+ex:core_ultra_285t a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_9_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 35 ;
+    ex:hasMaxPower 112 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+ex:core_ultra_285k a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_9_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.7 ;
+    ex:hasTDP 125 ;
+    ex:hasMaxPower 250 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+ex:core_ultra_285 a ex:CPU ;
+    ex:belongsToFamily ex:core_ultra_9_series_2 ;
+    ex:usesSocket ex:LGA1851 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 65 ;
+    ex:hasMaxPower 182 ;
+    ex:hasCores 24 ;
+    ex:hasThreads 24 .
+
+
+
+
+ex:ryzen_3_1000_series a ex:CPUFamily .
+
+ex:ryzen_1200 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 3.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:ryzen_1300x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+
+
+
+ex:ryzen_5_1000_series a ex:CPUFamily .
+
+ex:ryzen_1400 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_1500x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_1600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_1600af a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_1600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_1000_series a ex:CPUFamily .
+
+ex:ryzen_1700 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_1700x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 3.8 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_1800x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_1000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_3_2000_series a ex:CPUFamily .
+
+ex:ryzen_2200g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 3.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:ryzen_2200ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.6 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:ryzen_2300x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+
+
+
+ex:ryzen_5_2000_series a ex:CPUFamily .
+
+ex:ryzen_2400g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_2400ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 3.8 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_2500x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_2600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_2600e a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 45 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_2600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_2000_series a ex:CPUFamily .
+
+ex:ryzen_2700 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_2700e a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 2.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 45 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_2700x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_2000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_3_3000_series a ex:CPUFamily .
+
+ex:ryzen_3100 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 3.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_3200g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:ryzen_3200ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 3.8 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 4 .
+
+ex:ryzen_3300x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:ryzen_5_3000_series a ex:CPUFamily .
+
+ex:ryzen_3400g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_3400ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_3500 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 6 .
+
+ex:ryzen_3600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_3600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_3600xt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 95 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_3000_series a ex:CPUFamily .
+
+ex:ryzen_3700x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_3800x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_3800xt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_9_3000_series a ex:CPUFamily .
+
+ex:ryzen_3900 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_3900x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_3900xt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_3950x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_3000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
+
+
+
+
+ex:ryzen_3_4000_series a ex:CPUFamily .
+
+ex:ryzen_4100 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_4300g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_4300ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:ryzen_5_4000_series a ex:CPUFamily .
+
+ex:ryzen_4500 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_4600g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_4600ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_4000_series a ex:CPUFamily .
+
+ex:ryzen_4700g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_4700ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.1 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_4700le a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_4000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_3_5000_series a ex:CPUFamily .
+
+ex:ryzen_5300ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_5300g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_5305ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_5305g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:ryzen_5_5000_series a ex:CPUFamily .
+
+ex:ryzen_5500 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5500gt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5500x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600gt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.6 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600t a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5600xt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5605g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_5605ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.4 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_5000_series a ex:CPUFamily .
+
+ex:ryzen_5700 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5700g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5700ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5700x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5700x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.1 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5705g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5705ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.2 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5800 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.6 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5800x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5800x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_5800xt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_9_5000_series a ex:CPUFamily .
+
+ex:ryzen_5900 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.0 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_5900x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_5900xt a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.8 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
+
+ex:ryzen_5950x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_5000_series ;
+    ex:usesSocket ex:AM4 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
+
+
+
+
+ex:ryzen_5_7000_series a ex:CPUFamily .
+
+ex:ryzen_7400 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.3 ;
+    ex:hasBoostClock 4.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_7400f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_7500f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_7500x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.0 ;
+    ex:hasBoostClock 4.5 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_7600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_7600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.7 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_7600x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.1 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_7000_series a ex:CPUFamily .
+
+ex:ryzen_7700 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.3 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_7700x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.5 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 105 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_7800x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.2 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 120 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_9_7000_series a ex:CPUFamily .
+
+ex:ryzen_7900 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.7 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_7900x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.7 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 170 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_7900x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.4 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 120 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_7950x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.5 ;
+    ex:hasBoostClock 5.7 ;
+    ex:hasTDP 170 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
+
+ex:ryzen_7950x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_7000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.2 ;
+    ex:hasBoostClock 5.7 ;
+    ex:hasTDP 120 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
+
+
+
+
+ex:ryzen_3_8000_series a ex:CPUFamily .
+
+ex:ryzen_8300g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_8305g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_8305ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+ex:ryzen_8300ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_3_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 4.9 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 4 ;
+    ex:hasThreads 8 .
+
+
+
+
+ex:ryzen_5_8000_series a ex:CPUFamily .
+
+ex:ryzen_8400f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 4.2 ;
+    ex:hasBoostClock 4.7 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8500g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8500ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8505g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.5 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8505ge a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.4 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 35 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8600g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.3 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_8605g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.3 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_8000_series a ex:CPUFamily .
+
+ex:ryzen_8700f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 4.1 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_8700g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.2 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_8705g a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_8000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.2 ;
+    ex:hasBoostClock 5.1 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_5_9000_series a ex:CPUFamily .
+
+ex:ryzen_9500f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.0 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_9600 a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+ex:ryzen_9600x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_5_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:MidRange ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.9 ;
+    ex:hasBoostClock 5.4 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 6 ;
+    ex:hasThreads 12 .
+
+
+
+
+ex:ryzen_7_9000_series a ex:CPUFamily .
+
+ex:ryzen_9700f a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics false ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_9700x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 3.8 ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 65 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_9800x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.7 ;
+    ex:hasBoostClock 5.2 ;
+    ex:hasTDP 120 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+ex:ryzen_9850x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_7_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Advanced ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.7 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 120 ;
+    ex:hasCores 8 ;
+    ex:hasThreads 16 .
+
+
+
+
+ex:ryzen_9_9000_series a ex:CPUFamily .
+
+ex:ryzen_9900x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.4 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 120 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_9900x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.4 ;
+    ex:hasBoostClock 5.5 ;
+    ex:hasTDP 120 ;
+    ex:hasCores 12 ;
+    ex:hasThreads 24 .
+
+ex:ryzen_9950x a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.3 ;
+    ex:hasBoostClock 5.7 ;
+    ex:hasTDP 170 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
+
+ex:ryzen_9950x3d a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.3 ;
+    ex:hasBoostClock 5.7 ;
+    ex:hasTDP 170 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
+
+ex:ryzen_9950x3d2_dual_edition a ex:CPU ;
+    ex:belongsToFamily ex:ryzen_9_9000_series ;
+    ex:usesSocket ex:AM5 ;
+    ex:hasTier ex:Premium ;
+    ex:hasIntegratedGraphics true ;
+    ex:hasBaseClock 4.3 ;
+    ex:hasBoostClock 5.6 ;
+    ex:hasTDP 200 ;
+    ex:hasCores 16 ;
+    ex:hasThreads 32 .
