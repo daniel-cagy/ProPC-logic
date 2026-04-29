@@ -7,7 +7,6 @@
 ex:graph a owl:Ontology ;
     owl:imports <graph/schema.ttl> ,
                 <graph/catalog.ttl> ,
-                <graph/cpus-intel.ttl> ,
-                <graph/cpus-amd.ttl> ,
+                <graph/cpus.ttl> ,
                 <graph/relationships.ttl> ,
                 <graph/motherboards.ttl> .
