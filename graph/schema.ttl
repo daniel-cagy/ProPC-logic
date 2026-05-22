@@ -72,6 +72,25 @@ rdfs:domain ex:CPU ;
 rdfs:range xsd:boolean .
 
 ex:belongsToFamily a owl:ObjectProperty ;
+    rdfs:domain ex:CPU ;
+    rdfs:range ex:CPUFamily .
+
+ex:PSU a owl:Class ;
+    rdfs:subClassOf ex:Component .
+
+ex:Certification a owl:Class .
+
+ex:hasCertification a owl:ObjectProperty ;
+    rdfs:domain ex:PSU ;
+    rdfs:range ex:Certification .
+
+ex:hasPower a owl:DatatypeProperty ;
+    rdfs:domain ex:PSU ;
+    rdfs:range xsd:integer .
+
+ex:hasPowerFactor a owl:DatatypeProperty ;
+    rdfs:domain ex:PSU ;
+    rdfs:range xsd:decimal .
 rdfs:domain ex:CPU ;
 rdfs:range ex:CPUFamily .
 

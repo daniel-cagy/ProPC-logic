@@ -9,4 +9,5 @@ ex:graph a owl:Ontology ;
                 <graph/catalog.ttl> ,
                 <graph/cpus.ttl> ,
                 <graph/relationships.ttl> ,
-                <graph/motherboards.ttl> .
+                <graph/motherboards.ttl> ,
+                <graph/psus.ttl> .
