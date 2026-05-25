@@ -13,7 +13,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
     ex:hasM2Slots "1x M.2280 NVMe" ;
     ex:hasSATAPorts 4 .
-    ex:hasTier ex:MidRange .
 ex:Asus ex:manufactures ex:B760M_A_DDR4 .
 
 ex:Z790_P_PRIME a ex:Motherboard ;
@@ -25,7 +24,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
     ex:hasM2Slots "2x M.2280 NVMe" ;
     ex:hasSATAPorts 6 .
-    ex:hasTier ex:Premium .
 ex:Asus ex:manufactures ex:Z790_P_PRIME .
 
 ex:B760M_DS3H a ex:Motherboard ;
@@ -37,7 +35,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
     ex:hasM2Slots "1x M.2280 NVMe" ;
     ex:hasSATAPorts 4 .
-    ex:hasTier ex:MidRange .
 ex:Gigabyte ex:manufactures ex:B760M_DS3H .
 
 ex:Z790_AORUS_ELITE a ex:Motherboard ;
@@ -49,7 +46,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
     ex:hasM2Slots "2x M.2280 NVMe" ;
     ex:hasSATAPorts 6 .
-    ex:hasTier ex:Premium .
 ex:Gigabyte ex:manufactures ex:Z790_AORUS_ELITE .
 
 ex:B660M_BAZOOKA a ex:Motherboard ;
@@ -61,7 +57,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
     ex:hasM2Slots "1x M.2280 NVMe" ;
     ex:hasSATAPorts 4 .
-    ex:hasTier ex:MidRange .
 ex:MSI ex:manufactures ex:B660M_BAZOOKA .
 
 ex:Z690_PRO_A a ex:Motherboard ;
@@ -73,7 +68,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
     ex:hasM2Slots "2x M.2280 NVMe" ;
     ex:hasSATAPorts 6 .
-    ex:hasTier ex:Advanced .
 ex:MSI ex:manufactures ex:Z690_PRO_A .
 
 ex:prime_h610M_E_D4 a ex:Motherboard ;
@@ -85,7 +79,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x1" ;
     ex:hasM2Slots "1x M.2280 NVMe" ;
     ex:hasSATAPorts 4 .
-    ex:hasTier ex:EntryLevel .
 ex:Asus ex:manufactures ex:prime_h610M_E_D4 .
 
 ex:Z690_GAMING_X_DDR4 a ex:Motherboard ;
@@ -97,7 +90,6 @@ ex:hasSocket ex:LGA1700 ;
     ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
     ex:hasM2Slots "2x M.2280 NVMe" ;
     ex:hasSATAPorts 6 .
-    ex:hasTier ex:Advanced .
 ex:Gigabyte ex:manufactures ex:Z690_GAMING_X_DDR4 .
 
 ex:B650M_PLUS a ex:Motherboard ;
@@ -109,7 +101,6 @@ ex:hasSocket ex:AM5 ;
     ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
     ex:hasM2Slots "1x M.2280 NVMe" ;
     ex:hasSATAPorts 4 .
-    ex:hasTier ex:MidRange .
 ex:Asus ex:manufactures ex:B650M_PLUS .
 
 ex:X670E_PROART a ex:Motherboard ;
@@ -121,7 +112,6 @@ ex:hasSocket ex:AM5 ;
     ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
     ex:hasM2Slots "2x M.2280 NVMe" ;
     ex:hasSATAPorts 6 .
-    ex:hasTier ex:Premium .
 ex:Asus ex:manufactures ex:X670E_PROART .
 
 ex:B650M_AORUS_ELITE a ex:Motherboard ;
@@ -133,7 +123,6 @@ ex:hasSocket ex:AM5 ;
     ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
     ex:hasM2Slots "1x M.2280 NVMe" ;
     ex:hasSATAPorts 4 .
-    ex:hasTier ex:MidRange .
 ex:Gigabyte ex:manufactures ex:B650M_AORUS_ELITE .
 
 ex:X670_AORUS_MASTER a ex:Motherboard ;
@@ -145,7 +134,6 @@ ex:hasSocket ex:AM5 ;
     ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
     ex:hasM2Slots "2x M.2280 NVMe" ;
     ex:hasSATAPorts 8 .
-    ex:hasTier ex:Premium .
 ex:Gigabyte ex:manufactures ex:X670_AORUS_MASTER .
 
 ex:B650M_A_PRO a ex:Motherboard ;
@@ -157,7 +145,6 @@ ex:hasSocket ex:AM5 ;
     ex:hasPCIeSlots "1x PCIe x16, 1x PCIe x4" ;
     ex:hasM2Slots "1x M.2280 NVMe" ;
     ex:hasSATAPorts 4 .
-    ex:hasTier ex:MidRange .
 ex:MSI ex:manufactures ex:B650M_A_PRO .
 
 ex:X670E_CARBON a ex:Motherboard ;
@@ -169,7 +156,6 @@ ex:hasSocket ex:AM5 ;
     ex:hasPCIeSlots "1x PCIe x16, 2x PCIe x4" ;
     ex:hasM2Slots "2x M.2280 NVMe, 1x M.2230 NVMe" ;
     ex:hasSATAPorts 6 .
-    ex:hasTier ex:Premium .
 ex:MSI ex:manufactures ex:X670E_CARBON .
 
 ex:ROG_Strix_B450_F_Gaming a ex:Motherboard ;
