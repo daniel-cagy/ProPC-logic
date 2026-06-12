@@ -117,3 +117,136 @@ ex:hasM2Slots a owl:DatatypeProperty ;
 ex:hasSATAPorts a owl:DatatypeProperty ;
     rdfs:domain ex:Motherboard ;
     rdfs:range xsd:integer .
+
+ex:GPU a owl:Class ;
+    rdfs:subClassOf ex:Component .
+
+ex:GPUArchitecture a owl:Class .
+
+ex:hasGraphicsProcessorName a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:string .
+
+ex:hasArchitecture a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:string .
+
+ex:hasGPUCoreCount a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:integer .
+
+ex:hasGPUClock a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:decimal .
+
+ex:hasVRAMCapacity a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:integer .
+
+ex:hasVRAMType a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:string .
+
+ex:hasVRAMClock a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:decimal .
+
+ex:hasBusWidth a owl:DatatypeProperty ;
+    rdfs:domain ex:GPU ;
+    rdfs:range xsd:integer .
+
+# GPU Series, Models and Board Definitions
+
+ex:GPUSeries a owl:Class ;
+    rdfs:label "GPU Series" ;
+    rdfs:comment "Represents a GPU series like RTX 40, RTX 50, etc." .
+
+ex:GPUModel a owl:Class ;
+    rdfs:label "GPU Model" ;
+    rdfs:comment "Represents a specific GPU model like 4080, 5060, etc." .
+
+ex:GPUBoard a owl:Class ;
+    rdfs:subClassOf ex:GPU ;
+    rdfs:label "GPU Board" ;
+    rdfs:comment "Represents a specific GPU board/product variant like RTX 5060 TUF ASUS." .
+
+# GPU Parts
+
+ex:GPUPart a owl:Class ;
+    rdfs:label "GPU Component Part" ;
+    rdfs:comment "Base class for GPU component parts." .
+
+ex:GraphicsChip a owl:Class ;
+    rdfs:subClassOf ex:GPUPart ;
+    rdfs:label "Graphics Processing Unit Chip" ;
+    rdfs:comment "The main GPU processor chip." .
+
+ex:GPUMemory a owl:Class ;
+    rdfs:subClassOf ex:GPUPart ;
+    rdfs:label "GPU Memory Module" ;
+    rdfs:comment "Memory module used in GPU." .
+
+ex:PCBBoard a owl:Class ;
+    rdfs:subClassOf ex:GPUPart ;
+    rdfs:label "PCB Board" ;
+    rdfs:comment "The printed circuit board of the GPU." .
+
+# GPU Properties
+
+ex:hasSeriesName a owl:DatatypeProperty ;
+    rdfs:domain ex:GPUSeries ;
+    rdfs:range xsd:string ;
+    rdfs:label "Has Series Name" .
+
+ex:hasModelNumber a owl:DatatypeProperty ;
+    rdfs:domain ex:GPUModel ;
+    rdfs:range xsd:string ;
+    rdfs:label "Has Model Number" .
+
+ex:hasProductName a owl:DatatypeProperty ;
+    rdfs:domain ex:GPUBoard ;
+    rdfs:range xsd:string ;
+    rdfs:label "Has Product Name" .
+
+ex:belongsToSeries a owl:ObjectProperty ;
+    rdfs:domain ex:GPUModel ;
+    rdfs:range ex:GPUSeries ;
+    rdfs:label "Belongs To Series" .
+
+ex:basedOnModel a owl:ObjectProperty ;
+    rdfs:domain ex:GPUBoard ;
+    rdfs:range ex:GPUModel ;
+    rdfs:label "Based On Model" .
+
+ex:hasGraphicsChip a owl:ObjectProperty ;
+    rdfs:domain ex:GPUModel ;
+    rdfs:range ex:GraphicsChip ;
+    rdfs:label "Has Graphics Chip" .
+
+ex:hasGPUMemory a owl:ObjectProperty ;
+    rdfs:domain ex:GPUModel ;
+    rdfs:range ex:GPUMemory ;
+    rdfs:label "Has GPU Memory" .
+
+ex:hasPCBBoard a owl:ObjectProperty ;
+    rdfs:domain ex:GPUBoard ;
+    rdfs:range ex:PCBBoard ;
+    rdfs:label "Has PCB Board" .
+
+ex:manufacturedByComponent a owl:ObjectProperty ;
+    rdfs:domain ex:GPUPart ;
+    rdfs:range ex:Manufacturer ;
+    rdfs:label "Manufactured By" ;
+    rdfs:comment "The manufacturer of a specific GPU component." .
+
+# GPU Power Connector
+
+ex:GPUConnector a owl:Class ;
+    rdfs:label "GPU Power Connector" ;
+    rdfs:comment "The power connector standard used by a GPU board (e.g. standard PCIe 16-pin, or ASUS BTF GC-HPWR)." .
+
+ex:hasPowerConnector a owl:ObjectProperty ;
+    rdfs:domain ex:GPUBoard ;
+    rdfs:range ex:GPUConnector ;
+    rdfs:label "Has Power Connector" ;
+    rdfs:comment "Relates a GPU board to its power connector standard. BTF boards require a BTF-compatible motherboard." .

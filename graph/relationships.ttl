@@ -13,3 +13,46 @@ ex:AMD ex:manufactures ex:ryzen_7300x .
 ex:AMD ex:manufactures ex:ryzen_7600x .
 ex:AMD ex:manufactures ex:ryzen_7700x .
 ex:AMD ex:manufactures ex:ryzen_7900x .
+
+# ========== GPU Manufacturers Relationships ==========
+
+# NVIDIA - Graphics Chips
+ex:NVIDIA ex:manufactures ex:ga100_chip .
+ex:NVIDIA ex:manufactures ex:gb202_chip .
+ex:NVIDIA ex:manufactures ex:gb206_chip .
+ex:NVIDIA ex:manufactures ex:gb207_chip .
+ex:NVIDIA ex:manufactures ex:ada_4090_chip .
+ex:NVIDIA ex:manufactures ex:ada_4080_chip .
+
+# Samsung - Memory Modules
+ex:Samsung ex:manufactures ex:gddr7_24gb_memory .
+ex:Samsung ex:manufactures ex:gddr7_16gb_memory .
+ex:Samsung ex:manufactures ex:gddr7_12gb_memory .
+ex:Samsung ex:manufactures ex:gddr6x_24gb_memory .
+ex:Samsung ex:manufactures ex:gddr6x_16gb_memory .
+
+# ASUS - PCB Boards and Products
+ex:ASUS ex:manufactures ex:asus_tuf_pcb .
+ex:ASUS ex:manufactures ex:asus_rog_matrix_pcb .
+ex:ASUS ex:manufactures ex:asus_rog_astral_pcb .
+ex:ASUS ex:manufactures ex:asus_rog_astral_btf_pcb .
+ex:ASUS ex:manufactures ex:rtx_5060_tuf_asus .
+ex:ASUS ex:manufactures ex:rtx_5070_tuf_asus .
+ex:ASUS ex:manufactures ex:rtx_5080_tuf_asus .
+ex:ASUS ex:manufactures ex:rtx_5090_tuf_asus .
+ex:ASUS ex:manufactures ex:rtx_4090_tuf_asus .
+ex:ASUS ex:manufactures ex:rog_matrix_rtx5090_asus .
+ex:ASUS ex:manufactures ex:rog_matrix_rtx5090_btf_asus .
+ex:ASUS ex:manufactures ex:rog_matrix_rtx4090_asus .
+ex:ASUS ex:manufactures ex:rog_matrix_rtx4090_old_asus .
+ex:ASUS ex:manufactures ex:rog_astral_rtx5090_btf_asus .
+ex:ASUS ex:manufactures ex:rog_astral_rtx5090_asus .
+ex:ASUS ex:manufactures ex:rog_astral_rtx5080_asus .
+
+# MSI - PCB Boards and Products
+ex:MSI ex:manufactures ex:msi_ventus_pcb .
+ex:MSI ex:manufactures ex:rtx_5060_ventus_msi .
+
+# Gigabyte - PCB Boards and Products
+ex:Gigabyte ex:manufactures ex:gigabyte_aorus_pcb .
+ex:Gigabyte ex:manufactures ex:rtx_5070_aorus_gigabyte .

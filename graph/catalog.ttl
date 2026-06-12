@@ -19,10 +19,16 @@ ex:LGA1851 a ex:Socket .
 
 ex:EntryLevel a ex:Tier .
 ex:MidRange a ex:Tier .
+ex:MidHighRange a ex:Tier .
 ex:Advanced a ex:Tier .
+ex:HighEnd a ex:Tier .
 ex:Premium a ex:Tier .
 
 ex:CoolerMaster a ex:Manufacturer .
 ex:Corsair a ex:Manufacturer .
 ex:SeaSonic a ex:Manufacturer .
-ex:Premium a ex:Tier .
+
+# GPU-related manufacturers
+ex:NVIDIA a ex:Manufacturer .
+ex:Samsung a ex:Manufacturer .
+ex:ASUS a ex:Manufacturer .

@@ -1,0 +1,522 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ========== GPU SERIES ==========
+
+ex:rtx_20_series a ex:GPUSeries ;
+    ex:hasSeriesName "RTX 20 Series" ;
+    rdfs:label "NVIDIA GeForce RTX 20 Series" .
+
+ex:rtx_30_series a ex:GPUSeries ;
+    ex:hasSeriesName "RTX 30 Series" ;
+    rdfs:label "NVIDIA GeForce RTX 30 Series" .
+
+ex:rtx_40_series a ex:GPUSeries ;
+    ex:hasSeriesName "RTX 40 Series" ;
+    rdfs:label "NVIDIA GeForce RTX 40 Series" .
+
+ex:rtx_50_series a ex:GPUSeries ;
+    ex:hasSeriesName "RTX 50 Series" ;
+    rdfs:label "NVIDIA GeForce RTX 50 Series" .
+
+ex:radeon_6000_series a ex:GPUSeries ;
+    ex:hasSeriesName "Radeon RX 6000 Series" ;
+    rdfs:label "AMD Radeon RX 6000 Series" .
+
+ex:radeon_7000_series a ex:GPUSeries ;
+    ex:hasSeriesName "Radeon RX 7000 Series" ;
+    rdfs:label "AMD Radeon RX 7000 Series" .
+
+ex:radeon_9000_series a ex:GPUSeries ;
+    ex:hasSeriesName "Radeon RX 9000 Series" ;
+    rdfs:label "AMD Radeon RX 9000 Series" .
+
+ex:arc_a_series a ex:GPUSeries ;
+    ex:hasSeriesName "Arc A Series" ;
+    rdfs:label "Intel Arc A Series" .
+
+ex:arc_b_series a ex:GPUSeries ;
+    ex:hasSeriesName "Arc B Series" ;
+    rdfs:label "Intel Arc B Series" .
+
+# ========== GPU MODELS ==========
+
+# RTX 50 Series Models
+ex:rtx_5090_model a ex:GPUModel ;
+    ex:hasModelNumber "5090" ;
+    ex:belongsToSeries ex:rtx_50_series ;
+    ex:hasGraphicsChip ex:ga100_chip ;
+    ex:hasGPUMemory ex:gddr7_24gb_memory_5090 ;
+    ex:hasCores 16384 ;
+    ex:hasGPUClock 2.6 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 520 ;
+    ex:hasArchitecture "Blackwell" .
+
+ex:rtx_5080_model a ex:GPUModel ;
+    ex:hasModelNumber "5080" ;
+    ex:belongsToSeries ex:rtx_50_series ;
+    ex:hasGraphicsChip ex:gb202_chip ;
+    ex:hasGPUMemory ex:gddr7_16gb_memory_5080 ;
+    ex:hasCores 10752 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 16 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:hasBusWidth 320 ;
+    ex:hasTDP 420 ;
+    ex:hasArchitecture "Blackwell" .
+
+ex:rtx_5070_model a ex:GPUModel ;
+    ex:hasModelNumber "5070" ;
+    ex:belongsToSeries ex:rtx_50_series ;
+    ex:hasGraphicsChip ex:gb206_chip ;
+    ex:hasGPUMemory ex:gddr7_12gb_memory_5070 ;
+    ex:hasCores 6144 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:hasBusWidth 192 ;
+    ex:hasTDP 300 ;
+    ex:hasArchitecture "Blackwell" .
+
+ex:rtx_5060_model a ex:GPUModel ;
+    ex:hasModelNumber "5060" ;
+    ex:belongsToSeries ex:rtx_50_series ;
+    ex:hasGraphicsChip ex:gb207_chip ;
+    ex:hasGPUMemory ex:gddr7_12gb_memory_5060 ;
+    ex:hasCores 3840 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 4500 ;
+    ex:hasVRAMClockEffective 18000 ;
+    ex:hasBusWidth 192 ;
+    ex:hasTDP 280 ;
+    ex:hasArchitecture "Blackwell" .
+
+# RTX 40 Series Models
+ex:rtx_4090_model a ex:GPUModel ;
+    ex:hasModelNumber "4090" ;
+    ex:belongsToSeries ex:rtx_40_series ;
+    ex:hasGraphicsChip ex:ada_4090_chip ;
+    ex:hasGPUMemory ex:gddr6x_24gb_memory ;
+    ex:hasCores 16384 ;
+    ex:hasGPUClock 2.52 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR6X" ;
+    ex:hasVRAMClock 5250 ;
+    ex:hasVRAMClockEffective 21000 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 450 ;
+    ex:hasArchitecture "Ada Lovelace" .
+
+ex:rtx_4080_model a ex:GPUModel ;
+    ex:hasModelNumber "4080" ;
+    ex:belongsToSeries ex:rtx_40_series ;
+    ex:hasGraphicsChip ex:ada_4080_chip ;
+    ex:hasGPUMemory ex:gddr6x_16gb_memory ;
+    ex:hasCores 9728 ;
+    ex:hasGPUClock 2.50 ;
+    ex:hasVRAMCapacity 16 ;
+    ex:hasVRAMType "GDDR6X" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:hasBusWidth 256 ;
+    ex:hasTDP 320 ;
+    ex:hasArchitecture "Ada Lovelace" .
+
+# ========== GRAPHICS CHIPS (Processadores Gráficos) ==========
+
+# NVIDIA Chips - RTX 50
+ex:ga100_chip a ex:GraphicsChip ;
+    rdfs:label "NVIDIA GA100" ;
+    ex:hasGraphicsProcessorName "NVIDIA Blackwell GA100" ;
+    ex:manufacturedByComponent ex:NVIDIA ;
+    ex:hasCores 16384 .
+
+ex:gb202_chip a ex:GraphicsChip ;
+    rdfs:label "NVIDIA GB202" ;
+    ex:hasGraphicsProcessorName "NVIDIA Blackwell GB202" ;
+    ex:manufacturedByComponent ex:NVIDIA ;
+    ex:hasCores 10752 .
+
+ex:gb206_chip a ex:GraphicsChip ;
+    rdfs:label "NVIDIA GB206" ;
+    ex:hasGraphicsProcessorName "NVIDIA Blackwell GB206" ;
+    ex:manufacturedByComponent ex:NVIDIA ;
+    ex:hasCores 6144 .
+
+ex:gb207_chip a ex:GraphicsChip ;
+    rdfs:label "NVIDIA GB207" ;
+    ex:hasGraphicsProcessorName "NVIDIA Blackwell GB207" ;
+    ex:manufacturedByComponent ex:NVIDIA ;
+    ex:hasCores 3840 .
+
+# NVIDIA Chips - RTX 40
+ex:ada_4090_chip a ex:GraphicsChip ;
+    rdfs:label "NVIDIA AD102" ;
+    ex:hasGraphicsProcessorName "NVIDIA Ada AD102" ;
+    ex:manufacturedByComponent ex:NVIDIA ;
+    ex:hasCores 16384 .
+
+ex:ada_4080_chip a ex:GraphicsChip ;
+    rdfs:label "NVIDIA AD103" ;
+    ex:hasGraphicsProcessorName "NVIDIA Ada AD103" ;
+    ex:manufacturedByComponent ex:NVIDIA ;
+    ex:hasCores 9728 .
+
+# ========== GPU MEMORY MODULES ==========
+
+ex:gddr7_32gb_memory a ex:GPUMemory ;
+    rdfs:label "32GB GDDR7 Memory Module" ;
+    ex:hasVRAMCapacity 32 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:manufacturedByComponent ex:Samsung ;
+    ex:hasBusWidth 512 .
+
+ex:gddr7_24gb_memory_5090 a ex:GPUMemory ;
+    rdfs:label "24GB GDDR7 Memory Module (RTX 5090)" ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:manufacturedByComponent ex:Samsung ;
+    ex:hasBusWidth 384 .
+
+ex:gddr7_16gb_memory_5080 a ex:GPUMemory ;
+    rdfs:label "16GB GDDR7 Memory Module (RTX 5080)" ;
+    ex:hasVRAMCapacity 16 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:manufacturedByComponent ex:Samsung ;
+    ex:hasBusWidth 320 .
+
+ex:gddr7_12gb_memory_5070 a ex:GPUMemory ;
+    rdfs:label "12GB GDDR7 Memory Module (RTX 5070)" ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:manufacturedByComponent ex:Samsung ;
+    ex:hasBusWidth 192 .
+
+ex:gddr7_12gb_memory_5060 a ex:GPUMemory ;
+    rdfs:label "12GB GDDR7 Memory Module (RTX 5060)" ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 4500 ;
+    ex:hasVRAMClockEffective 18000 ;
+    ex:manufacturedByComponent ex:Samsung ;
+    ex:hasBusWidth 192 .
+
+
+
+ex:gddr6x_24gb_memory a ex:GPUMemory ;
+    rdfs:label "24GB GDDR6X Memory Module" ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR6X" ;
+    ex:hasVRAMClock 5250 ;
+    ex:hasVRAMClockEffective 21000 ;
+    ex:manufacturedByComponent ex:Samsung ;
+    ex:hasBusWidth 384 .
+
+ex:gddr6x_16gb_memory a ex:GPUMemory ;
+    rdfs:label "16GB GDDR6X Memory Module" ;
+    ex:hasVRAMCapacity 16 ;
+    ex:hasVRAMType "GDDR6X" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:manufacturedByComponent ex:Samsung ;
+    ex:hasBusWidth 256 .
+
+# ========== PCB BOARDS (Placas) ==========
+
+ex:asus_tuf_pcb a ex:PCBBoard ;
+    rdfs:label "ASUS TUF PCB" ;
+    rdfs:comment "ASUS TUF Series PCB Board" ;
+    ex:manufacturedByComponent ex:ASUS ;
+    ex:hasFormFactor "Dual Slot" .
+
+ex:msi_ventus_pcb a ex:PCBBoard ;
+    rdfs:label "MSI Ventus PCB" ;
+    rdfs:comment "MSI Ventus Series PCB Board" ;
+    ex:manufacturedByComponent ex:MSI ;
+    ex:hasFormFactor "Dual Slot" .
+
+ex:gigabyte_aorus_pcb a ex:PCBBoard ;
+    rdfs:label "Gigabyte AORUS PCB" ;
+    rdfs:comment "Gigabyte AORUS Series PCB Board" ;
+    ex:manufacturedByComponent ex:Gigabyte ;
+    ex:hasFormFactor "Dual Slot" .
+
+ex:asus_rog_matrix_pcb a ex:PCBBoard ;
+    rdfs:label "ASUS ROG Matrix PCB" ;
+    rdfs:comment "ASUS ROG Matrix Series PCB Board (hybrid liquid-cooled flagship)" ;
+    ex:manufacturedByComponent ex:ASUS ;
+    ex:hasFormFactor "Dual Slot" .
+
+ex:asus_rog_astral_pcb a ex:PCBBoard ;
+    rdfs:label "ASUS ROG Astral PCB" ;
+    rdfs:comment "ASUS ROG Astral Series PCB Board" ;
+    ex:manufacturedByComponent ex:ASUS ;
+    ex:hasFormFactor "Quad Slot" .
+
+ex:asus_rog_astral_btf_pcb a ex:PCBBoard ;
+    rdfs:label "ASUS ROG Astral BTF PCB" ;
+    rdfs:comment "ASUS ROG Astral BTF Series PCB Board with rear (back-connector) power input" ;
+    ex:manufacturedByComponent ex:ASUS ;
+    ex:hasFormFactor "Quad Slot" .
+
+# ========== GPU POWER CONNECTORS ==========
+
+ex:btf_connector a ex:GPUConnector ;
+    rdfs:label "ASUS BTF GC-HPWR Connector" ;
+    rdfs:comment "ASUS Back-To-the-Future hidden power connector (GC-HPWR); requires a BTF-compatible motherboard." .
+
+ex:pcie_16pin_connector a ex:GPUConnector ;
+    rdfs:label "16-pin 12V-2x6 (12VHPWR) Connector" ;
+    rdfs:comment "Standard PCIe 16-pin power connector." .
+
+# ========== GPU BOARDS / PRODUCTS (Placas Completas) ==========
+
+# RTX 5060 Boards
+ex:rtx_5060_tuf_asus a ex:GPUBoard ;
+    ex:hasProductName "RTX 5060 TUF ASUS" ;
+    ex:basedOnModel ex:rtx_5060_model ;
+    ex:hasPCBBoard ex:asus_tuf_pcb ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 3840 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 4500 ;
+    ex:hasVRAMClockEffective 18000 ;
+    ex:hasBusWidth 192 ;
+    ex:hasTDP 280 .
+
+ex:rtx_5060_ventus_msi a ex:GPUBoard ;
+    ex:hasProductName "RTX 5060 Ventus MSI" ;
+    ex:basedOnModel ex:rtx_5060_model ;
+    ex:hasPCBBoard ex:msi_ventus_pcb ;
+    ex:hasTier ex:EntryLevel ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 3840 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 4500 ;
+    ex:hasVRAMClockEffective 18000 ;
+    ex:hasBusWidth 192 ;
+    ex:hasTDP 280 .
+
+# RTX 5070 Boards
+ex:rtx_5070_tuf_asus a ex:GPUBoard ;
+    ex:hasProductName "RTX 5070 TUF ASUS" ;
+    ex:basedOnModel ex:rtx_5070_model ;
+    ex:hasPCBBoard ex:asus_tuf_pcb ;
+    ex:hasTier ex:MidRange ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 6144 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:hasBusWidth 192 ;
+    ex:hasTDP 300 .
+
+ex:rtx_5070_aorus_gigabyte a ex:GPUBoard ;
+    ex:hasProductName "RTX 5070 AORUS Gigabyte" ;
+    ex:basedOnModel ex:rtx_5070_model ;
+    ex:hasPCBBoard ex:gigabyte_aorus_pcb ;
+    ex:hasTier ex:MidRange ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 6144 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 12 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:hasBusWidth 192 ;
+    ex:hasTDP 300 .
+
+# RTX 5080 Boards
+ex:rtx_5080_tuf_asus a ex:GPUBoard ;
+    ex:hasProductName "RTX 5080 TUF ASUS" ;
+    ex:basedOnModel ex:rtx_5080_model ;
+    ex:hasPCBBoard ex:asus_tuf_pcb ;
+    ex:hasTier ex:MidHighRange ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 10752 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 16 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:hasBusWidth 320 ;
+    ex:hasTDP 420 .
+
+# RTX 5090 Boards
+ex:rtx_5090_tuf_asus a ex:GPUBoard ;
+    ex:hasProductName "RTX 5090 TUF ASUS" ;
+    ex:basedOnModel ex:rtx_5090_model ;
+    ex:hasPCBBoard ex:asus_tuf_pcb ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.6 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 520 .
+
+# RTX 4090 Boards
+ex:rtx_4090_tuf_asus a ex:GPUBoard ;
+    ex:hasProductName "RTX 4090 TUF ASUS" ;
+    ex:basedOnModel ex:rtx_4090_model ;
+    ex:hasPCBBoard ex:asus_tuf_pcb ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Ada Lovelace" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.52 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR6X" ;
+    ex:hasVRAMClock 5250 ;
+    ex:hasVRAMClockEffective 21000 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 450 .
+
+# ROG Matrix Boards (flagship, hybrid liquid-cooled)
+ex:rog_matrix_rtx5090_asus a ex:GPUBoard ;
+    rdfs:comment "Pode operar com BTF (GC-HPWR) ou 16-pin isoladamente; o pico de 800W (hasTDP) só é atingido usando ambos os conectores simultaneamente." ;
+    ex:hasProductName "ROG Matrix RTX 5090 ASUS" ;
+    ex:basedOnModel ex:rtx_5090_model ;
+    ex:hasPCBBoard ex:asus_rog_matrix_pcb ;
+    ex:hasPowerConnector ex:btf_connector , ex:pcie_16pin_connector ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.6 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 800 .
+
+ex:rog_matrix_rtx5090_btf_asus a ex:GPUBoard ;
+    rdfs:comment "Edição BTF dedicada do ROG Matrix RTX 5090 com conector BTF e fonte de alimentação de alta capacidade." ;
+    ex:hasProductName "ROG Matrix RTX 5090 ASUS BTF Edition" ;
+    ex:basedOnModel ex:rtx_5090_model ;
+    ex:hasPCBBoard ex:asus_rog_matrix_pcb ;
+    ex:hasPowerConnector ex:btf_connector ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.6 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 800 .
+
+ex:rog_matrix_rtx4090_asus a ex:GPUBoard ;
+    ex:hasProductName "ROG Matrix RTX 4090 ASUS" ;
+    ex:basedOnModel ex:rtx_4090_model ;
+    ex:hasPCBBoard ex:asus_rog_matrix_pcb ;
+    ex:hasPowerConnector ex:pcie_16pin_connector ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Ada Lovelace" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.52 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR6X" ;
+    ex:hasVRAMClock 5250 ;
+    ex:hasVRAMClockEffective 21000 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 600 .
+
+ex:rog_matrix_rtx4090_old_asus a ex:GPUBoard ;
+    rdfs:comment "Versão antiga ROG Matrix RTX 4090, identica ao modelo original da linha ROG Matrix." ;
+    ex:hasProductName "ROG Matrix RTX 4090 ASUS (Old Edition)" ;
+    ex:basedOnModel ex:rtx_4090_model ;
+    ex:hasPCBBoard ex:asus_rog_matrix_pcb ;
+    ex:hasPowerConnector ex:pcie_16pin_connector ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Ada Lovelace" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.52 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR6X" ;
+    ex:hasVRAMClock 5250 ;
+    ex:hasVRAMClockEffective 21000 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 600 .
+
+# ROG Astral Boards
+ex:rog_astral_rtx5090_btf_asus a ex:GPUBoard ;
+    ex:hasProductName "ROG Astral RTX 5090 BTF Edition ASUS" ;
+    ex:basedOnModel ex:rtx_5090_model ;
+    ex:hasPCBBoard ex:asus_rog_astral_btf_pcb ;
+    ex:hasPowerConnector ex:btf_connector ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.6 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 520 .
+
+ex:rog_astral_rtx5090_asus a ex:GPUBoard ;
+    ex:hasProductName "ROG Astral RTX 5090 ASUS" ;
+    ex:basedOnModel ex:rtx_5090_model ;
+    ex:hasPCBBoard ex:asus_rog_astral_pcb ;
+    ex:hasPowerConnector ex:pcie_16pin_connector ;
+    ex:hasTier ex:HighEnd ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 16384 ;
+    ex:hasGPUClock 2.6 ;
+    ex:hasVRAMCapacity 24 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5440 ;
+    ex:hasVRAMClockEffective 21760 ;
+    ex:hasBusWidth 384 ;
+    ex:hasTDP 520 .
+
+ex:rog_astral_rtx5080_asus a ex:GPUBoard ;
+    ex:hasProductName "ROG Astral RTX 5080 ASUS" ;
+    ex:basedOnModel ex:rtx_5080_model ;
+    ex:hasPCBBoard ex:asus_rog_astral_pcb ;
+    ex:hasPowerConnector ex:pcie_16pin_connector ;
+    ex:hasTier ex:MidHighRange ;
+    ex:hasArchitecture "Blackwell" ;
+    ex:hasGPUCoreCount 10752 ;
+    ex:hasGPUClock 2.55 ;
+    ex:hasVRAMCapacity 16 ;
+    ex:hasVRAMType "GDDR7" ;
+    ex:hasVRAMClock 5000 ;
+    ex:hasVRAMClockEffective 20000 ;
+    ex:hasBusWidth 320 ;
+    ex:hasTDP 420 .
+
