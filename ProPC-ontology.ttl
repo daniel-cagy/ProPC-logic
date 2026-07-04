@@ -73,6 +73,12 @@
                                              rdfs:range <http://example.org/univ#CPUFamily> .
 
 
+###  http://example.org/univ#recommended_with
+<http://example.org/univ#recommended_with> rdf:type owl:ObjectProperty ;
+                                           owl:inverseOf <http://example.org/univ#recommended_with> ;
+                                           rdf:type owl:SymmetricProperty .
+
+
 ###  http://example.org/univ#usesSocket
 <http://example.org/univ#usesSocket> rdf:type owl:ObjectProperty ;
                                      rdfs:domain <http://example.org/univ#CPU> ,
@@ -6040,9 +6046,45 @@
 
 <x> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
+<y> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
 <z> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
-<y> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "" ;
+   rdfs:label "Recommendability rule 1" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://example.org/univ#compatibleWith> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <x> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <y>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://example.org/univ#hasTier> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <x> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <z>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://example.org/univ#hasTier> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <y> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> <z>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://example.org/univ#recommended_with> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <x> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <y>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
 
 [ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
    rdfs:comment "" ;
