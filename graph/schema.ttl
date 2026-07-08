@@ -14,6 +14,7 @@ ex:Component a owl:Class .
 ex:Manufacturer a owl:Class .
 ex:Tier a owl:Class .
 ex:Socket a owl:Class .
+ex:Chipset a owl:Class .
 ex:CPUFamily a owl:Class .
 
 
@@ -30,6 +31,10 @@ ex:usesSocket a owl:ObjectProperty ;
 ex:hasSocket a owl:ObjectProperty ;
     rdfs:domain ex:Motherboard ;
     rdfs:range ex:Socket .
+
+ex:hasChipset a owl:ObjectProperty ;
+    rdfs:domain ex:Motherboard ;
+    rdfs:range ex:Chipset .
 
 ex:manufactures a owl:ObjectProperty ;
     rdfs:domain ex:Manufacturer ;
