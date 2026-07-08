@@ -1,0 +1,68 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Chipset a owl:Class .
+
+ex:supportsSocket a owl:ObjectProperty ;
+    rdfs:domain ex:Chipset ;
+    rdfs:range ex:Socket .
+
+ex:A320 a ex:Chipset ;
+    ex:supportsSocket ex:AM4 .
+
+ex:B350 a ex:Chipset ;
+    ex:supportsSocket ex:AM4 .
+
+ex:B450 a ex:Chipset ;
+    ex:supportsSocket ex:AM4 .
+
+ex:X570 a ex:Chipset ;
+    ex:supportsSocket ex:AM4 .
+
+ex:B650 a ex:Chipset ;
+    ex:supportsSocket ex:AM5 .
+
+ex:X670 a ex:Chipset ;
+    ex:supportsSocket ex:AM5 .
+
+ex:X670E a ex:Chipset ;
+    ex:supportsSocket ex:AM5 .
+
+ex:B360 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1151_v2 .
+
+ex:H370 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1151_v2 .
+
+ex:Z370 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1151_v2 .
+
+ex:Z390 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1151_v2 .
+
+ex:H510 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1200 .
+
+ex:B560 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1200 .
+
+ex:Z490 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1200 .
+
+ex:H610 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1700 .
+
+ex:B660 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1700 .
+
+ex:Z690 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1700 .
+
+ex:B760 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1700 .
+
+ex:Z790 a ex:Chipset ;
+    ex:supportsSocket ex:LGA1700 .
