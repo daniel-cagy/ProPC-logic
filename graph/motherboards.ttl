@@ -5,7 +5,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:B760M_A_DDR4 a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:B760 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -17,7 +16,6 @@ ex:B760M_A_DDR4 a ex:Motherboard ;
 ex:Asus ex:manufactures ex:B760M_A_DDR4 .
 
 ex:Z790_P_PRIME a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:Z790 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -29,7 +27,6 @@ ex:Z790_P_PRIME a ex:Motherboard ;
 ex:Asus ex:manufactures ex:Z790_P_PRIME .
 
 ex:B760M_DS3H a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:B760 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -41,7 +38,6 @@ ex:B760M_DS3H a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:B760M_DS3H .
 
 ex:Z790_AORUS_ELITE a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:Z790 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -53,7 +49,6 @@ ex:Z790_AORUS_ELITE a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:Z790_AORUS_ELITE .
 
 ex:B660M_BAZOOKA a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:B660 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -65,7 +60,6 @@ ex:B660M_BAZOOKA a ex:Motherboard ;
 ex:MSI ex:manufactures ex:B660M_BAZOOKA .
 
 ex:Z690_PRO_A a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:Z690 ;
     ex:hasTier ex:Advanced ;
     ex:hasFormFactor "ATX" ;
@@ -77,7 +71,6 @@ ex:Z690_PRO_A a ex:Motherboard ;
 ex:MSI ex:manufactures ex:Z690_PRO_A .
 
 ex:prime_h610M_E_D4 a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:H610 ;
     ex:hasTier ex:EntryLevel ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -89,7 +82,6 @@ ex:prime_h610M_E_D4 a ex:Motherboard ;
 ex:Asus ex:manufactures ex:prime_h610M_E_D4 .
 
 ex:Z690_GAMING_X_DDR4 a ex:Motherboard ;
-    ex:hasSocket ex:LGA1700 ;
     ex:hasChipset ex:Z690 ;
     ex:hasTier ex:Advanced ;
     ex:hasFormFactor "ATX" ;
@@ -101,7 +93,6 @@ ex:Z690_GAMING_X_DDR4 a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:Z690_GAMING_X_DDR4 .
 
 ex:B650M_PLUS a ex:Motherboard ;
-    ex:hasSocket ex:AM5 ;
     ex:hasChipset ex:B650 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -113,7 +104,6 @@ ex:B650M_PLUS a ex:Motherboard ;
 ex:Asus ex:manufactures ex:B650M_PLUS .
 
 ex:X670E_PROART a ex:Motherboard ;
-    ex:hasSocket ex:AM5 ;
     ex:hasChipset ex:X670E ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -125,7 +115,6 @@ ex:X670E_PROART a ex:Motherboard ;
 ex:Asus ex:manufactures ex:X670E_PROART .
 
 ex:B650M_AORUS_ELITE a ex:Motherboard ;
-    ex:hasSocket ex:AM5 ;
     ex:hasChipset ex:B650 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -137,7 +126,6 @@ ex:B650M_AORUS_ELITE a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:B650M_AORUS_ELITE .
 
 ex:X670_AORUS_MASTER a ex:Motherboard ;
-    ex:hasSocket ex:AM5 ;
     ex:hasChipset ex:X670 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -149,7 +137,6 @@ ex:X670_AORUS_MASTER a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:X670_AORUS_MASTER .
 
 ex:B650M_A_PRO a ex:Motherboard ;
-    ex:hasSocket ex:AM5 ;
     ex:hasChipset ex:B650 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -161,7 +148,6 @@ ex:B650M_A_PRO a ex:Motherboard ;
 ex:MSI ex:manufactures ex:B650M_A_PRO .
 
 ex:X670E_CARBON a ex:Motherboard ;
-    ex:hasSocket ex:AM5 ;
     ex:hasChipset ex:X670E ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -173,7 +159,6 @@ ex:X670E_CARBON a ex:Motherboard ;
 ex:MSI ex:manufactures ex:X670E_CARBON .
 
 ex:ROG_Strix_B450_F_Gaming a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
     ex:hasChipset ex:B450 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -185,7 +170,6 @@ ex:ROG_Strix_B450_F_Gaming a ex:Motherboard ;
 ex:Asus ex:manufactures ex:ROG_Strix_B450_F_Gaming .
 
 ex:B450_Aorus_Elite a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
     ex:hasChipset ex:B450 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -197,7 +181,6 @@ ex:B450_Aorus_Elite a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:B450_Aorus_Elite .
 
 ex:B450_Tomahawk a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
     ex:hasChipset ex:B450 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -209,7 +192,6 @@ ex:B450_Tomahawk a ex:Motherboard ;
 ex:MSI ex:manufactures ex:B450_Tomahawk .
 
 ex:Prime_X570_Pro a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
     ex:hasChipset ex:X570 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -221,7 +203,6 @@ ex:Prime_X570_Pro a ex:Motherboard ;
 ex:Asus ex:manufactures ex:Prime_X570_Pro .
 
 ex:ROG_Strix_Z370_E a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
     ex:hasChipset ex:Z370 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -233,7 +214,6 @@ ex:ROG_Strix_Z370_E a ex:Motherboard ;
 ex:Asus ex:manufactures ex:ROG_Strix_Z370_E .
 
 ex:Z390_Aorus_Ultra a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
     ex:hasChipset ex:Z390 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -245,7 +225,6 @@ ex:Z390_Aorus_Ultra a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:Z390_Aorus_Ultra .
 
 ex:Z390_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
     ex:hasChipset ex:Z390 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -257,7 +236,6 @@ ex:Z390_A_Pro a ex:Motherboard ;
 ex:MSI ex:manufactures ex:Z390_A_Pro .
 
 ex:ROG_Strix_Z490_E a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
     ex:hasChipset ex:Z490 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -269,7 +247,6 @@ ex:ROG_Strix_Z490_E a ex:Motherboard ;
 ex:Asus ex:manufactures ex:ROG_Strix_Z490_E .
 
 ex:Z490_Aorus_Elite a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
     ex:hasChipset ex:Z490 ;
     ex:hasTier ex:Premium ;
     ex:hasFormFactor "ATX" ;
@@ -281,7 +258,6 @@ ex:Z490_Aorus_Elite a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:Z490_Aorus_Elite .
 
 ex:Z490_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
     ex:hasChipset ex:Z490 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -293,7 +269,6 @@ ex:Z490_A_Pro a ex:Motherboard ;
 ex:MSI ex:manufactures ex:Z490_A_Pro .
 
 ex:Prime_B450M_A a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
     ex:hasChipset ex:B450 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -305,7 +280,6 @@ ex:Prime_B450M_A a ex:Motherboard ;
 ex:Asus ex:manufactures ex:Prime_B450M_A .
 
 ex:B350_Gaming a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
     ex:hasChipset ex:B350 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -317,7 +291,6 @@ ex:B350_Gaming a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:B350_Gaming .
 
 ex:A320M_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:AM4 ;
     ex:hasChipset ex:A320 ;
     ex:hasTier ex:EntryLevel ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -329,7 +302,6 @@ ex:A320M_A_Pro a ex:Motherboard ;
 ex:MSI ex:manufactures ex:A320M_A_Pro .
 
 ex:Prime_B360M_A a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
     ex:hasChipset ex:B360 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -341,7 +313,6 @@ ex:Prime_B360M_A a ex:Motherboard ;
 ex:Asus ex:manufactures ex:Prime_B360M_A .
 
 ex:H370_Aorus_Gaming_3 a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
     ex:hasChipset ex:H370 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -353,7 +324,6 @@ ex:H370_Aorus_Gaming_3 a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:H370_Aorus_Gaming_3 .
 
 ex:B360_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1151_v2 ;
     ex:hasChipset ex:B360 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;
@@ -365,7 +335,6 @@ ex:B360_A_Pro a ex:Motherboard ;
 ex:MSI ex:manufactures ex:B360_A_Pro .
 
 ex:Prime_B560M_A a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
     ex:hasChipset ex:B560 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -377,7 +346,6 @@ ex:Prime_B560M_A a ex:Motherboard ;
 ex:Asus ex:manufactures ex:Prime_B560M_A .
 
 ex:H510M_DS2 a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
     ex:hasChipset ex:H510 ;
     ex:hasTier ex:EntryLevel ;
     ex:hasFormFactor "Micro-ATX" ;
@@ -389,7 +357,6 @@ ex:H510M_DS2 a ex:Motherboard ;
 ex:Gigabyte ex:manufactures ex:H510M_DS2 .
 
 ex:B560_A_Pro a ex:Motherboard ;
-    ex:hasSocket ex:LGA1200 ;
     ex:hasChipset ex:B560 ;
     ex:hasTier ex:MidRange ;
     ex:hasFormFactor "ATX" ;

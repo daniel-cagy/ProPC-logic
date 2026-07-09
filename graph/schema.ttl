@@ -28,9 +28,6 @@ ex:usesSocket a owl:ObjectProperty ;
     rdfs:domain ex:CPU ;
     rdfs:range ex:Socket .
 
-ex:hasSocket a owl:ObjectProperty ;
-    rdfs:domain ex:Motherboard ;
-    rdfs:range ex:Socket .
 
 ex:hasChipset a owl:ObjectProperty ;
     rdfs:domain ex:Motherboard ;
