@@ -4,6 +4,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+ex:motherboards a owl:Ontology .
+
 ex:B760M_A_DDR4 a ex:Motherboard ;
     ex:hasChipset ex:B760 ;
     ex:hasTier ex:MidRange ;

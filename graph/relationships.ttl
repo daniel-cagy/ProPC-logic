@@ -4,6 +4,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+ex:relationships a owl:Ontology .
+
 ex:Intel ex:manufacturesFamily ex:core_i3_8th_gen .
 ex:Intel ex:manufacturesFamily ex:core_i5_8th_gen .
 ex:Intel ex:manufacturesFamily ex:core_i7_8th_gen .
