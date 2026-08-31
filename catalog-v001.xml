@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://example.org/univ#rules" uri="rules.ttl"/>
+    <uri name="http://example.org/univ#graph" uri="graph.ttl"/>
+    <uri name="http://example.org/univ#schema" uri="graph/schema.ttl"/>
+    <uri name="http://example.org/univ#catalog" uri="graph/catalog.ttl"/>
+    <uri name="http://example.org/univ#cpus" uri="graph/cpus.ttl"/>
+    <uri name="http://example.org/univ#relationships" uri="graph/relationships.ttl"/>
+    <uri name="http://example.org/univ#motherboards" uri="graph/motherboards.ttl"/>
+    <uri name="http://example.org/univ#psus" uri="graph/psus.ttl"/>
+    <uri name="http://example.org/univ#chipsets" uri="graph/chipsets.ttl"/>
+</catalog>
