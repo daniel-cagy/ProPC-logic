@@ -21,6 +21,9 @@ ex:CPUFamily a owl:Class .
 ex:CPU a owl:Class ;
     rdfs:subClassOf ex:Component .
 
+ex:RAM a owl:Class ;
+    rdfs:subClassOf ex:Component .
+
 ex:Motherboard a owl:Class ;
     rdfs:subClassOf ex:Component .
 
@@ -98,6 +101,70 @@ rdfs:range ex:CPUFamily .
 
 ex:hasFormFactor a owl:DatatypeProperty ;
     rdfs:domain ex:Motherboard ;
+    rdfs:range xsd:string .
+
+ex:hasCapacityGB a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:integer .
+
+ex:hasMemoryType a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:string .
+
+ex:hasSpeedMTs a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:integer .
+
+ex:hasFrequencyMHz a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:integer .
+
+ex:hasCASLatency a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:integer .
+
+ex:hasTimings a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:string .
+
+ex:hasChannelMode a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:string .
+
+ex:supportsDualChannel a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:boolean .
+
+ex:supportsQuadChannel a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:boolean .
+
+ex:hasVoltage a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:decimal .
+
+ex:hasModuleCount a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:integer .
+
+ex:hasRank a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:string .
+
+ex:hasECC a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:boolean .
+
+ex:hasRegistered a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:boolean .
+
+ex:hasHeatsink a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
+    rdfs:range xsd:boolean .
+
+ex:hasXMPProfile a owl:DatatypeProperty ;
+    rdfs:domain ex:RAM ;
     rdfs:range xsd:string .
 
 ex:hasRAMArchitecture a owl:DatatypeProperty ;

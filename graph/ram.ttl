@@ -1,0 +1,62 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:DDR4_16GB_3200_CL16 a ex:RAM ;
+    ex:hasCapacityGB 16 ;
+    ex:hasMemoryType "DDR4" ;
+    ex:hasFrequencyMHz 3200 ;
+    ex:hasSpeedMTs 25600 ;
+    ex:hasCASLatency 16 ;
+    ex:hasTimings "16-18-18-36" ;
+    ex:hasChannelMode "Dual Channel" ;
+    ex:supportsDualChannel true ;
+    ex:supportsQuadChannel false ;
+    ex:hasVoltage 1.35 ;
+    ex:hasModuleCount 2 ;
+    ex:hasRank "Dual Rank" ;
+    ex:hasECC false ;
+    ex:hasRegistered false ;
+    ex:hasHeatsink true ;
+    ex:hasXMPProfile "XMP 2.0" .
+ex:Kingston ex:manufactures ex:DDR4_16GB_3200_CL16 .
+
+ex:DDR5_32GB_6000_CL30 a ex:RAM ;
+    ex:hasCapacityGB 32 ;
+    ex:hasMemoryType "DDR5" ;
+    ex:hasFrequencyMHz 6000 ;
+    ex:hasSpeedMTs 48000 ;
+    ex:hasCASLatency 30 ;
+    ex:hasTimings "30-36-36-76" ;
+    ex:hasChannelMode "Dual Channel" ;
+    ex:supportsDualChannel true ;
+    ex:supportsQuadChannel false ;
+    ex:hasVoltage 1.35 ;
+    ex:hasModuleCount 2 ;
+    ex:hasRank "Dual Rank" ;
+    ex:hasECC false ;
+    ex:hasRegistered false ;
+    ex:hasHeatsink true ;
+    ex:hasXMPProfile "XMP 3.0" .
+ex:Crucial ex:manufactures ex:DDR5_32GB_6000_CL30 .
+
+ex:DDR4_32GB_3600_CL18 a ex:RAM ;
+    ex:hasCapacityGB 32 ;
+    ex:hasMemoryType "DDR4" ;
+    ex:hasFrequencyMHz 3600 ;
+    ex:hasSpeedMTs 28800 ;
+    ex:hasCASLatency 18 ;
+    ex:hasTimings "18-22-22-42" ;
+    ex:hasChannelMode "Dual Channel" ;
+    ex:supportsDualChannel true ;
+    ex:supportsQuadChannel false ;
+    ex:hasVoltage 1.35 ;
+    ex:hasModuleCount 2 ;
+    ex:hasRank "Dual Rank" ;
+    ex:hasECC false ;
+    ex:hasRegistered false ;
+    ex:hasHeatsink true ;
+    ex:hasXMPProfile "XMP 2.0" .
+ex:G.Skill ex:manufactures ex:DDR4_32GB_3600_CL18 .
