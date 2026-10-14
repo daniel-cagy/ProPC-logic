@@ -16,6 +16,7 @@ ex:Tier a owl:Class .
 ex:Socket a owl:Class .
 ex:Chipset a owl:Class .
 ex:CPUFamily a owl:Class .
+ex:MemoryType a owl:Class .
 
 
 ex:CPU a owl:Class ;
@@ -109,7 +110,7 @@ ex:hasCapacityGB a owl:DatatypeProperty ;
 
 ex:hasMemoryType a owl:DatatypeProperty ;
     rdfs:domain ex:RAM ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:MemoryType .
 
 ex:hasSpeedMTs a owl:DatatypeProperty ;
     rdfs:domain ex:RAM ;
@@ -131,25 +132,9 @@ ex:hasChannelMode a owl:DatatypeProperty ;
     rdfs:domain ex:RAM ;
     rdfs:range xsd:string .
 
-ex:supportsDualChannel a owl:DatatypeProperty ;
-    rdfs:domain ex:RAM ;
-    rdfs:range xsd:boolean .
-
-ex:supportsQuadChannel a owl:DatatypeProperty ;
-    rdfs:domain ex:RAM ;
-    rdfs:range xsd:boolean .
-
 ex:hasVoltage a owl:DatatypeProperty ;
     rdfs:domain ex:RAM ;
     rdfs:range xsd:decimal .
-
-ex:hasModuleCount a owl:DatatypeProperty ;
-    rdfs:domain ex:RAM ;
-    rdfs:range xsd:integer .
-
-ex:hasRank a owl:DatatypeProperty ;
-    rdfs:domain ex:RAM ;
-    rdfs:range xsd:string .
 
 ex:hasECC a owl:DatatypeProperty ;
     rdfs:domain ex:RAM ;
