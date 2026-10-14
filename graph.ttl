@@ -11,5 +11,6 @@ ex:graph a owl:Ontology ;
                 ex:relationships ,
                 ex:motherboards ,
                 ex:psus ,
-                ex:ram, 
+                ex:ram , 
+                ex:disks ,
                 ex:chipsets .

@@ -1,0 +1,51 @@
+@prefix ex: <http://example.org/univ#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:disks a owl:Ontology .
+
+ex:M2_NVMe a ex:StorageInterface .
+ex:SATA a ex:StorageInterface .
+
+ex:Samsung_980_1TB a ex:SSD ;
+    rdfs:label "Samsung 980 1TB (MZ-V8V1T0BW)" ;
+    ex:hasInterface ex:M2_NVMe ;
+    ex:hasDiskCapacityGB 1000 ;
+    ex:hasBufferSizeMB 0 ;
+    ex:hasWriteSpeedMBps 1836 ;
+    ex:hasReadSpeedMBps 1597 ;
+    ex:hasIOPS 500000 ;
+    ex:hasDriveSize "2280" ;
+    ex:hasInstallationType "internal" ;
+    ex:isPortable false ;
+    ex:hasNANDType "TLC" .
+ex:Samsung ex:manufactures ex:Samsung_980_1TB .
+
+ex:Crucial_MX500_1TB a ex:SSD ;
+    rdfs:label "Crucial MX500 1TB (CT1000MX500SSD1)" ;
+    ex:hasInterface ex:SATA ;
+    ex:hasDiskCapacityGB 1000 ;
+    ex:hasBufferSizeMB 1024 ;
+    ex:hasWriteSpeedMBps 427 ;
+    ex:hasReadSpeedMBps 438 ;
+    ex:hasIOPS 95000 ;
+    ex:hasDriveSize "2.5-inch" ;
+    ex:hasInstallationType "internal" ;
+    ex:isPortable false ;
+    ex:hasNANDType "TLC" .
+ex:Crucial ex:manufactures ex:Crucial_MX500_1TB .
+
+ex:Seagate_BarraCuda_2TB_ST2000DM008 a ex:HDD ;
+    rdfs:label "Seagate BarraCuda 2TB (ST2000DM008)" ;
+    ex:hasInterface ex:SATA ;
+    ex:hasDiskCapacityGB 2000 ;
+    ex:hasBufferSizeMB 256 ;
+    ex:hasReadSpeedMBps 130 ;
+    ex:hasWriteSpeedMBps 142 ;
+    ex:hasRPM 7200 ;
+    ex:hasDriveSize "3.5-inch" ;
+    ex:hasInstallationType "internal" ;
+    ex:isPortable false .
+ex:Seagate ex:manufactures ex:Seagate_BarraCuda_2TB_ST2000DM008 .
