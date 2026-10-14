@@ -11,5 +11,6 @@ ex:graph a owl:Ontology ;
                 <graph/relationships.ttl> ,
                 <graph/motherboards.ttl> ,
                 <graph/ram.ttl> ,
+                <graph/disks.ttl> ,
                 <graph/psus.ttl> ,
                 <graph/chipsets.ttl> .
