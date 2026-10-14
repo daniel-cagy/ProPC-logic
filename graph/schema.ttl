@@ -16,6 +16,7 @@ ex:Tier a owl:Class .
 ex:Socket a owl:Class .
 ex:Chipset a owl:Class .
 ex:CPUFamily a owl:Class .
+ex:StorageInterface a owl:Class .
 
 
 ex:CPU a owl:Class ;
@@ -26,6 +27,61 @@ ex:RAM a owl:Class ;
 
 ex:Motherboard a owl:Class ;
     rdfs:subClassOf ex:Component .
+
+ex:Disk a owl:Class ;
+    rdfs:subClassOf ex:Component .
+
+ex:SSD a owl:Class ;
+    rdfs:subClassOf ex:Disk .
+
+ex:HDD a owl:Class ;
+    rdfs:subClassOf ex:Disk .
+
+ex:hasInterface a owl:ObjectProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range ex:StorageInterface .
+
+ex:hasDiskCapacityGB a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:decimal .
+
+ex:hasBufferSizeMB a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:integer .
+
+ex:hasWriteSpeedMBps a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:decimal .
+
+ex:hasReadSpeedMBps a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:decimal .
+
+ex:hasIOPS a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:integer .
+
+ex:hasDriveSize a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:string .
+
+ex:hasInstallationType a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Use internal or external." .
+
+ex:isPortable a owl:DatatypeProperty ;
+    rdfs:domain ex:Disk ;
+    rdfs:range xsd:boolean .
+
+ex:hasNANDType a owl:DatatypeProperty ;
+    rdfs:domain ex:SSD ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Supported values: SLC, MLC, TLC, QLC." .
+
+ex:hasRPM a owl:DatatypeProperty ;
+    rdfs:domain ex:HDD ;
+    rdfs:range xsd:integer .
 
 ex:usesSocket a owl:ObjectProperty ;
     rdfs:domain ex:CPU ;

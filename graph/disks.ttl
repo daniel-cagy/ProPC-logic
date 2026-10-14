@@ -4,72 +4,12 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Disk a owl:Class ;
-    rdfs:subClassOf ex:Component .
-
-ex:SSD a owl:Class ;
-    rdfs:subClassOf ex:Disk .
-
-ex:HDD a owl:Class ;
-    rdfs:subClassOf ex:Disk .
-
-ex:hasInterface a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:string ;
-    rdfs:comment "SSD: M.2 SATA, M.2 NVMe, SATA, NVMe, SAS, U.2, USB C, USB A. HDD: SATA, SAS, NAS, USB A, ATA, IDE." .
-
-ex:hasDiskCapacityGB a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:decimal ;
-    rdfs:comment "Capacity in decimal gigabytes; any positive value is supported." .
-
-ex:hasBufferSizeMB a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:integer ;
-    rdfs:comment "Dedicated DRAM buffer/cache in megabytes; does not include dynamic SLC caches." .
-
-ex:hasWriteSpeedMBps a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:decimal ;
-    rdfs:comment "Average Bench write result from UserBenchmark in megabytes per second." .
-
-ex:hasReadSpeedMBps a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:decimal ;
-    rdfs:comment "Average Bench read result from UserBenchmark in megabytes per second." .
-
-ex:hasIOPS a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:integer ;
-    rdfs:comment "Random 4K read IOPS as specified by the manufacturer." .
-
-ex:hasDriveSize a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:string ;
-    rdfs:comment "SSD examples: 2.5-inch, 2280, 2230, 22110, 2260, 2242, mSATA. HDD examples: 2.5-inch or 3.5-inch." .
-
-ex:hasInstallationType a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:string ;
-    rdfs:comment "Use internal or external." .
-
-ex:isPortable a owl:DatatypeProperty ;
-    rdfs:domain ex:Disk ;
-    rdfs:range xsd:boolean .
-
-ex:hasNANDType a owl:DatatypeProperty ;
-    rdfs:domain ex:SSD ;
-    rdfs:range xsd:string ;
-    rdfs:comment "Supported values: SLC, MLC, TLC, QLC." .
-
-ex:hasRPM a owl:DatatypeProperty ;
-    rdfs:domain ex:HDD ;
-    rdfs:range xsd:integer .
+ex:M2_NVMe a ex:StorageInterface .
+ex:SATA a ex:StorageInterface .
 
 ex:Samsung_980_1TB a ex:SSD ;
     rdfs:label "Samsung 980 1TB (MZ-V8V1T0BW)" ;
-    rdfs:comment "UserBenchmark Average Bench: https://ssd.userbenchmark.com/SpeedTest/1488476/Samsung-SSD-980-1TB" ;
-    ex:hasInterface "M.2 NVMe" ;
+    ex:hasInterface ex:M2_NVMe ;
     ex:hasDiskCapacityGB 1000 ;
     ex:hasBufferSizeMB 0 ;
     ex:hasWriteSpeedMBps 1836 ;
@@ -83,8 +23,7 @@ ex:Samsung ex:manufactures ex:Samsung_980_1TB .
 
 ex:Crucial_MX500_1TB a ex:SSD ;
     rdfs:label "Crucial MX500 1TB (CT1000MX500SSD1)" ;
-    rdfs:comment "UserBenchmark Average Bench: https://ssd.userbenchmark.com/SpeedTest/406099/CT1000MX500SSD1" ;
-    ex:hasInterface "SATA" ;
+    ex:hasInterface ex:SATA ;
     ex:hasDiskCapacityGB 1000 ;
     ex:hasBufferSizeMB 1024 ;
     ex:hasWriteSpeedMBps 427 ;
@@ -98,8 +37,7 @@ ex:Crucial ex:manufactures ex:Crucial_MX500_1TB .
 
 ex:Seagate_BarraCuda_2TB_ST2000DM008 a ex:HDD ;
     rdfs:label "Seagate BarraCuda 2TB (ST2000DM008)" ;
-    rdfs:comment "UserBenchmark Average Bench: https://hdd.userbenchmark.com/SpeedTest/466743/ST2000DM008-2FR102" ;
-    ex:hasInterface "SATA" ;
+    ex:hasInterface ex:SATA ;
     ex:hasDiskCapacityGB 2000 ;
     ex:hasBufferSizeMB 256 ;
     ex:hasReadSpeedMBps 130 ;
